@@ -1,0 +1,4243 @@
+{
+  "intents": [
+    {
+      "intent": "Bot_Control_Approve_Response",
+      "examples": [
+        {
+          "text": "Afirmativo."
+        },
+        {
+          "text": "Bien, lo haremos."
+        },
+        {
+          "text": "Brillante respuesta."
+        },
+        {
+          "text": "Buen trabajo."
+        },
+        {
+          "text": "Correcto, es lo que estaba buscando"
+        },
+        {
+          "text": "De acuerdo."
+        },
+        {
+          "text": "Es correcto."
+        },
+        {
+          "text": "Es exactamente lo que estaba pensando."
+        },
+        {
+          "text": "Es exactamente lo que necesitamos."
+        },
+        {
+          "text": "Esta todo perfecto."
+        },
+        {
+          "text": "Excelente respuesta."
+        },
+        {
+          "text": "Excelente trabajo."
+        },
+        {
+          "text": "Gran trabajo."
+        },
+        {
+          "text": "Has sido de gran ayuda"
+        },
+        {
+          "text": "Justo lo que necesitaba."
+        },
+        {
+          "text": "Maravilloso"
+        },
+        {
+          "text": "Muy bien, gracias."
+        },
+        {
+          "text": "Muy bueno."
+        },
+        {
+          "text": "Perfecto"
+        },
+        {
+          "text": "Si, es eso lo que busco."
+        }
+      ],
+      "description": "Acknowledge that the response satisfies a question."
+    },
+    {
+      "intent": "Bot_Control_Change_Subject",
+      "examples": [
+        {
+          "text": "Cambiemos de conversación."
+        },
+        {
+          "text": "Continuamos con otro tema."
+        },
+        {
+          "text": "Hablame de otro tema."
+        },
+        {
+          "text": "Me gustaria que empecemos de nuevo"
+        },
+        {
+          "text": "Podemos cambiar el tema?"
+        },
+        {
+          "text": "Podemos continuar con la otra solicitud?"
+        },
+        {
+          "text": "Podemos hablar de otra cosa?"
+        },
+        {
+          "text": "Puede ayudarme con otra solicitud?"
+        },
+        {
+          "text": "Puede decirme algo sobre ti?"
+        },
+        {
+          "text": "Puedo hacer una solicitud diferente."
+        },
+        {
+          "text": "Que estas haciendo ahora?"
+        },
+        {
+          "text": "Quiero otra solicitud."
+        },
+        {
+          "text": "Quiero terminar la conversación."
+        },
+        {
+          "text": "Voy a cambiar de tema."
+        },
+        {
+          "text": "Ya no necesito su ayuda."
+        },
+        {
+          "text": "Ya no quiero continuar con esa solicitud."
+        },
+        {
+          "text": "Ya no quiero continuar con esta conversación"
+        },
+        {
+          "text": "Ya no quiero seguir con esta conversación."
+        }
+      ],
+      "description": "Cambiar a un tema diferente."
+    },
+    {
+      "intent": "Bot_Control_Clarification",
+      "examples": [
+        {
+          "text": "A que te refieres?"
+        },
+        {
+          "text": "Creo que no entendi, puede repetirlo?"
+        },
+        {
+          "text": "Entendiste mal."
+        },
+        {
+          "text": "Eso no es lo que dije."
+        },
+        {
+          "text": "Eso no te estoy preguntando."
+        },
+        {
+          "text": "Explicame de nuevo."
+        },
+        {
+          "text": "Lo siento pero eso no es lo que estaba preguntando"
+        },
+        {
+          "text": "Lo siento, puedes repetirlo una vez mas."
+        },
+        {
+          "text": "Lo siento, una vez mas."
+        },
+        {
+          "text": "Me puedes dar mas información?"
+        },
+        {
+          "text": "No entendi."
+        },
+        {
+          "text": "No entendiste lo que dije."
+        },
+        {
+          "text": "No estoy seguro si entendi, podría explicarme nuevamente?"
+        },
+        {
+          "text": "No respondiste a mi pregunta."
+        },
+        {
+          "text": "No te entiendo muy bien."
+        },
+        {
+          "text": "Podemos dar un paso atrás?"
+        },
+        {
+          "text": "Podriamos empezar de nuevo?"
+        },
+        {
+          "text": "Puede explicarme nuevamente, no entendí."
+        },
+        {
+          "text": "Que quieres decir con eso?"
+        },
+        {
+          "text": "Recapitulemos"
+        }
+      ],
+      "description": "Repita o aclare la última declaración."
+    },
+    {
+      "intent": "Bot_Control_Confirm_Presence",
+      "examples": [
+        {
+          "text": "A dónde te has ido?"
+        },
+        {
+          "text": "Alguien allí?"
+        },
+        {
+          "text": "Alguien esta ahí?"
+        },
+        {
+          "text": "Creo que hemos perdido la conexión."
+        },
+        {
+          "text": "Dónde estás?"
+        },
+        {
+          "text": "Estás allá?"
+        },
+        {
+          "text": "Estas todavía allí?"
+        },
+        {
+          "text": "Estoy hablando con alguien?"
+        },
+        {
+          "text": "Hablame si estas ahi"
+        },
+        {
+          "text": "Me has dejado en espera."
+        },
+        {
+          "text": "Me has escuchado?"
+        },
+        {
+          "text": "Necesitas mas tiempo?"
+        },
+        {
+          "text": "No te escucho"
+        },
+        {
+          "text": "Porque no me respondes?"
+        },
+        {
+          "text": "Que esta pasando?"
+        },
+        {
+          "text": "Que te has hecho?"
+        },
+        {
+          "text": "Quien esta ahi?"
+        },
+        {
+          "text": "Te he perdido."
+        },
+        {
+          "text": "Todavia estas en línea?"
+        }
+      ],
+      "description": "Pídale al bot que indique que está disponible."
+    },
+    {
+      "intent": "Bot_Control_Ignore_Undo",
+      "examples": [
+        {
+          "text": "Creo que quiero algo difertente."
+        },
+        {
+          "text": "Eso no es lo que estoy diciendo."
+        },
+        {
+          "text": "Eso no es lo que quiero."
+        },
+        {
+          "text": "Espera, estamos hablando de cosas diferentes."
+        },
+        {
+          "text": "Esto no es lo que quiero."
+        },
+        {
+          "text": "He cambiado de opinion."
+        },
+        {
+          "text": "Lo dire nuevamente."
+        },
+        {
+          "text": "Me he dado cuenta que eso no es lo que estoy buscando."
+        },
+        {
+          "text": "No entendiste, iniciemos de nuevo."
+        },
+        {
+          "text": "No entendiste, olvídalo."
+        },
+        {
+          "text": "No es correcto, olvídalo."
+        },
+        {
+          "text": "No es lo que estoy buscando."
+        },
+        {
+          "text": "Olvidalo."
+        },
+        {
+          "text": "Olvídalo, no entendiste."
+        },
+        {
+          "text": "Quieres que te lo repita?"
+        },
+        {
+          "text": "Te lo voy a repetir."
+        },
+        {
+          "text": "Volvamos a iniciar."
+        },
+        {
+          "text": "Volvamos al tema anterior."
+        },
+        {
+          "text": "Volvamos al tema inicial."
+        },
+        {
+          "text": "Volvamos un paso atrás."
+        }
+      ],
+      "description": "Pídale al bot que retroceda un paso."
+    },
+    {
+      "intent": "Bot_Control_Reject_Response",
+      "examples": [
+        {
+          "text": "De qué estas hablando?"
+        },
+        {
+          "text": "Esa repuesta no es correcta."
+        },
+        {
+          "text": "Es la respuesta equivocada."
+        },
+        {
+          "text": "Eso no me ayuda."
+        },
+        {
+          "text": "Estas equivocado."
+        },
+        {
+          "text": "La respuesta es incorrecta."
+        },
+        {
+          "text": "No comprendiste nada."
+        },
+        {
+          "text": "No entendiste la clave."
+        },
+        {
+          "text": "No entiendo."
+        },
+        {
+          "text": "No entiendo lo que dices."
+        },
+        {
+          "text": "No es lo que estoy preguntando."
+        },
+        {
+          "text": "No es lo que he estado buscando."
+        },
+        {
+          "text": "No es lo que pienso."
+        },
+        {
+          "text": "No estas entendiendo lo que dije."
+        },
+        {
+          "text": "No es una buena repuesta."
+        },
+        {
+          "text": "No me estas entendiendo."
+        },
+        {
+          "text": "No necesito eso."
+        },
+        {
+          "text": "No te entiendo nada."
+        },
+        {
+          "text": "Que dices?"
+        },
+        {
+          "text": "Sobre que me estas hablando?"
+        }
+      ],
+      "description": "Indique que la respuesta del bot no responde a una pregunta."
+    },
+    {
+      "intent": "Bot_Control_Standby",
+      "examples": [
+        {
+          "text": "Continuamos en unos minutos?"
+        },
+        {
+          "text": "Dame mas tiempo, no tengo la información aca."
+        },
+        {
+          "text": "Dame un momento."
+        },
+        {
+          "text": "Dame unos minutos."
+        },
+        {
+          "text": "Dejame para que lo reviso."
+        },
+        {
+          "text": "Esperame en línea."
+        },
+        {
+          "text": "Esperame un segundo."
+        },
+        {
+          "text": "Necesito un momento."
+        },
+        {
+          "text": "No tengo la informacion aquí, puedes esperarme?"
+        },
+        {
+          "text": "Podemos hablar mas tarde?"
+        },
+        {
+          "text": "Podemos terminar mas tarde."
+        },
+        {
+          "text": "Puedes darme un momento?"
+        },
+        {
+          "text": "Puedes esperarme"
+        },
+        {
+          "text": "Puedes esperarme un segundo."
+        },
+        {
+          "text": "Regreso ahora?"
+        },
+        {
+          "text": "Regreso ahora."
+        },
+        {
+          "text": "Regreso en un momento."
+        },
+        {
+          "text": "Regreso mas tarde."
+        },
+        {
+          "text": "Te pongo en espera un momento."
+        },
+        {
+          "text": "Ya regreso."
+        }
+      ],
+      "description": "Indique un retraso en la entrada del bot"
+    },
+    {
+      "intent": "Bot_Control_Start_Over",
+      "examples": [
+        {
+          "text": "Empecemos de nuevo."
+        },
+        {
+          "text": "Empezamos nuevamente?"
+        },
+        {
+          "text": "Iniciamos de nuevo?"
+        },
+        {
+          "text": "Iniciamos una vez mas?"
+        },
+        {
+          "text": "Iniciemos de nuevo."
+        },
+        {
+          "text": "Lo intentamos otra vez?"
+        },
+        {
+          "text": "Necesito que comencemos de nuevo."
+        },
+        {
+          "text": "Podemos intentarlo una vez mas?"
+        },
+        {
+          "text": "Podemos repetir todo desde el inicio?"
+        },
+        {
+          "text": "Podemos volver a la conversacion inicial?"
+        },
+        {
+          "text": "Podemos volver al punto inicial?"
+        },
+        {
+          "text": "Por favor, podemos empezar de nuevo?"
+        },
+        {
+          "text": "Puede repetir desde el inicio?"
+        },
+        {
+          "text": "Quiero ver todo desde el inicio."
+        },
+        {
+          "text": "Quiero volver al inicio"
+        },
+        {
+          "text": "Reiniciemos."
+        },
+        {
+          "text": "Una vez mas."
+        },
+        {
+          "text": "Volvamos a la conversación."
+        },
+        {
+          "text": "Volvamos al inicio."
+        },
+        {
+          "text": "Yo quiero iniciar de nuevo"
+        }
+      ],
+      "description": "Reinicia el bot"
+    },
+    {
+      "intent": "Bot_Control_Unsure",
+      "examples": [
+        {
+          "text": "Aclarame que deseas."
+        },
+        {
+          "text": "Aclarame que necesitas."
+        },
+        {
+          "text": "Dame una pista."
+        },
+        {
+          "text": "No entendí que es lo que necesitas."
+        },
+        {
+          "text": "No entiendo que es lo que necesitas."
+        },
+        {
+          "text": "No estoy contenta con tu respuesta."
+        },
+        {
+          "text": "No estoy convencida."
+        },
+        {
+          "text": "No estoy muy convencida."
+        },
+        {
+          "text": "No estoy segura de lo que necesitas."
+        },
+        {
+          "text": "No he entendido."
+        },
+        {
+          "text": "No me convences con tu respuesta."
+        },
+        {
+          "text": "No se que buscas."
+        },
+        {
+          "text": "No se que necesitas."
+        },
+        {
+          "text": "No se que quieres."
+        },
+        {
+          "text": "No tengo idea de lo que pides."
+        },
+        {
+          "text": "Para ser sincero, no has entendido."
+        },
+        {
+          "text": "Que es lo que buscas?"
+        },
+        {
+          "text": "Que es lo que estás buscando?"
+        },
+        {
+          "text": "Que quieres decir?"
+        },
+        {
+          "text": "Siendo honesto, no entendí."
+        }
+      ],
+      "description": "Indique que no hay una respuesta definitiva a una pregunta."
+    },
+    {
+      "intent": "Dudas_Becas",
+      "examples": [
+        {
+          "text": "¿Cómo puedo mirar si puedo pedir una beca?"
+        },
+        {
+          "text": "¿Cómo puedo solicitar a beca?"
+        },
+        {
+          "text": "¿Cómo se pueden consultar las becas?"
+        },
+        {
+          "text": "¿Qué datos se necesitan para las becas?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Dudas_Claves",
+      "examples": [
+        {
+          "text": "¿Cómo puedo recuperar mi contraseña?"
+        },
+        {
+          "text": "¿Cómo veo mis claves?"
+        },
+        {
+          "text": "He perdido mis claves"
+        },
+        {
+          "text": "No recuerdo mi contraseña"
+        },
+        {
+          "text": "¿Se puede recuperar la contraseña de alguna manera?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "¿Con qué tipo de robot estoy interactuando?"
+        },
+        {
+          "text": "¿Cuál es su versión?"
+        },
+        {
+          "text": "Cuántos idiomas hablas?"
+        },
+        {
+          "text": "De qué país eres?"
+        },
+        {
+          "text": "Dime tu nombre completo."
+        },
+        {
+          "text": "Dónde estás ahora mismo?"
+        },
+        {
+          "text": "¿Eres un representante oficial de conversación?"
+        },
+        {
+          "text": "Estoy buscando una solución para mejorar mi compromiso con los clientes"
+        },
+        {
+          "text": "¿Hablas alemán?"
+        },
+        {
+          "text": "Me gustaría configurar el bot de conversación para mi negocio."
+        },
+        {
+          "text": "Me puedes decir como se llama la aplicación?"
+        },
+        {
+          "text": "¿Puede darme información general sobre usted?"
+        },
+        {
+          "text": "¿Puede explicarme la diferencia entre este sistema y cualquier otro?"
+        },
+        {
+          "text": "Puedo hacerle algunas preguntas de validación de las ventas"
+        },
+        {
+          "text": "¿Puedo hacer mis preguntas usando Siri en lugar de esta aplicación?"
+        },
+        {
+          "text": "Qué color tienen tus ojos?"
+        },
+        {
+          "text": "Qué te gusta hacer en tu tiempo libre?"
+        },
+        {
+          "text": "Quiero crear un agente virtual que hable portugués"
+        },
+        {
+          "text": "Quiero entender cómo funcionas"
+        },
+        {
+          "text": "Tienes algún interés?"
+        }
+      ],
+      "description": "Solicitar atributos personales genéricos."
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "¿Cómo funciona el filtro en la pantalla de capacidades?"
+        },
+        {
+          "text": "¿Con qué categorías de problemas me puedes ayudar?"
+        },
+        {
+          "text": "¿Con qué categorías de problemas están capaz de ayudarme?"
+        },
+        {
+          "text": "¿Cuáles son las opciones disponibles si estoy usando agente virtual?"
+        },
+        {
+          "text": "¿Podría darme una lista de temas con las que puede ayudarme?"
+        },
+        {
+          "text": "¿Podría esperar un momento por favor?"
+        },
+        {
+          "text": "¿Podría esperar un segundo por favor?"
+        },
+        {
+          "text": "¿Puedes ayudarme en cómo iniciar sesión en Virtual Agent?"
+        },
+        {
+          "text": "¿Puedes darme una lista de temas de cosas con las que puedes ayudarme?"
+        },
+        {
+          "text": "¿Puedes esperar un poquito?"
+        },
+        {
+          "text": "¿Puedo tener una lista de temas disponibles, con los que puedes ayudarme?"
+        },
+        {
+          "text": "¿Qué clase de cosas haces?"
+        },
+        {
+          "text": "¿Qué hace un agente digital? ¿Para qué te uso?"
+        },
+        {
+          "text": "¿Qué pasa si quiero cambiar la respuesta de texto para una intención?"
+        },
+        {
+          "text": "¿Qué tipo de información y problemas puedes resolver para mí?"
+        },
+        {
+          "text": "¿Qué tipo de preguntas puedes contestar? ¿Y cuáles son tus limitaciones de respuestas?"
+        },
+        {
+          "text": "¿Qué tipo de cosas puede hacer por mí?"
+        },
+        {
+          "text": "Tengo algunas preguntas y necesito ayuda, ¿puedo recibir ayuda?"
+        },
+        {
+          "text": "Tengo algunos problemas y quiero algo de información sobre cómo conseguir ayuda."
+        },
+        {
+          "text": "Tengo varios problemas y necesito saber con qué me puede ayudar."
+        }
+      ],
+      "description": "Solicitar capacidades del bot."
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Ayudame a ponerme en contacto con una persona."
+        },
+        {
+          "text": "Buenos días podría hablar por teléfono contigo?"
+        },
+        {
+          "text": "Cómo puedo contactar un ser vivo?"
+        },
+        {
+          "text": "Creo que es mejor hablar con una persona."
+        },
+        {
+          "text": "Dejame hablar con un agente."
+        },
+        {
+          "text": "Deseo hablar con un agente."
+        },
+        {
+          "text": "Esto es muy frustrante, quiero hablar con una persona viva y real."
+        },
+        {
+          "text": "Hay algún ser vivo con cuál podría hablar?"
+        },
+        {
+          "text": "¿Hay un número de servicio al cliente que pueda usar para contactar a la compañía telefónica y hablar directamente con un agente?"
+        },
+        {
+          "text": "Hola! Estaba hablando con un agente y se me ha quedado colgado el chat y he perdido la conexión."
+        },
+        {
+          "text": "Hola, me conectas con el soporte tecnico?"
+        },
+        {
+          "text": "Hola, ¿podría transferirme al agente vivo, por favor?"
+        },
+        {
+          "text": "Hola, ¿puedes transferir mi llamada a un agente humano? Deseo hablar directamente con un ser humano."
+        },
+        {
+          "text": "Llama a un representante."
+        },
+        {
+          "text": "Mi factura está incorrecta, quiero hablar con un representante."
+        },
+        {
+          "text": "Nada contra maquinas, pero ponme con un operador."
+        },
+        {
+          "text": "Necesito hablar con alquien vivo."
+        },
+        {
+          "text": "Necesito hablar con una persona real, en lugar de un sistema automatizado de respuestas, por favor."
+        },
+        {
+          "text": "Necesito hablar directamente con un agente."
+        },
+        {
+          "text": "No quiero hablar con el agente virtual."
+        },
+        {
+          "text": "Pasame con un agente experto!"
+        },
+        {
+          "text": "Perfecto. Ahora, me gustaría hablar con un agente sobre algunos cargos."
+        },
+        {
+          "text": "Podrías ponerme en contacto con un operador?"
+        },
+        {
+          "text": "Por favor ayudame a contactar a un agente."
+        },
+        {
+          "text": "¿Puede enviarme un número telefónico para que hable con un representante humano de ventas?"
+        },
+        {
+          "text": "¿Puedes ayudarme a conectar con un agente?"
+        },
+        {
+          "text": "Puedes transferirme a un agente real?"
+        },
+        {
+          "text": "Puedo hablar con una persona?"
+        },
+        {
+          "text": "Puedo hablar con una persona real?"
+        },
+        {
+          "text": "¿Puedo tener información de contacto para hablar con un agente real?"
+        },
+        {
+          "text": "Quiero hablar con una persona."
+        },
+        {
+          "text": "Quiero que me pongan en contacto con un número diferente para las cosas relacionadas con esta cuenta."
+        },
+        {
+          "text": "Sería posible hablar con una persona?"
+        },
+        {
+          "text": "Transferirme a un agente por favor."
+        }
+      ],
+      "description": "Solicitar un agente humano"
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Buenas tardes."
+        },
+        {
+          "text": "Cuídate!"
+        },
+        {
+          "text": "Eso ha sido todo lo que me hacía falta."
+        },
+        {
+          "text": "Fue agradable hablar contigo."
+        },
+        {
+          "text": "Gracias no necesito más ayuda."
+        },
+        {
+          "text": "Gracias, podemos cerrar esta conversación."
+        },
+        {
+          "text": "Gracias por tu ayuda, hasta luego."
+        },
+        {
+          "text": "Hablamos luego."
+        },
+        {
+          "text": "Hablaremos más tarde."
+        },
+        {
+          "text": "¡Muchas gracias, adiós!"
+        },
+        {
+          "text": "Nos vemos."
+        },
+        {
+          "text": "No tengo más dudas, gracias por tu ayuda."
+        },
+        {
+          "text": "OK, eso es todo lo que necesito saber."
+        },
+        {
+          "text": "Qué te lo pases bien."
+        },
+        {
+          "text": "Qué tengas una buena tarde."
+        },
+        {
+          "text": "¡Salud!"
+        },
+        {
+          "text": "Un saludo."
+        },
+        {
+          "text": "Usted es maravilloso. Gracias por su ayuda."
+        },
+        {
+          "text": "Vaya usted con Diós!"
+        },
+        {
+          "text": "Ya me voy."
+        }
+      ],
+      "description": "Fin de la conversacion."
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Buenas noches."
+        },
+        {
+          "text": "Buenos días, podemos empezar la conversación?"
+        },
+        {
+          "text": "¿Cómo está? / Oye, ¿Qué tal?"
+        },
+        {
+          "text": "¿Estás ahí?"
+        },
+        {
+          "text": "¡Estoy feliz de poder hablar contigo por primera vez!"
+        },
+        {
+          "text": "Hey, ¿cómo te va?"
+        },
+        {
+          "text": "Hola, amigo mío."
+        },
+        {
+          "text": "Hola, ¿Cómo estás?"
+        },
+        {
+          "text": "Hola, Cómo estás el día de hoy?"
+        },
+        {
+          "text": "Hola, ¿Cómo te sientes?"
+        },
+        {
+          "text": "Hola, Cómo va todo?"
+        },
+        {
+          "text": "Hola, podrías responder mi pregunta?"
+        },
+        {
+          "text": "Hola ¿puedes ayudarme?"
+        },
+        {
+          "text": "Hola, quien me puede atender?"
+        },
+        {
+          "text": "Hola, Señor."
+        },
+        {
+          "text": "Quién eres?"
+        },
+        {
+          "text": "Sigues aquí?"
+        },
+        {
+          "text": "Tienes un momento, por favor?"
+        }
+      ],
+      "description": "Saluda al bot."
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Eres un agente virtual?"
+        },
+        {
+          "text": "Eres una máquina o una persona real?"
+        },
+        {
+          "text": "Eres un operador virtual o vivo?"
+        },
+        {
+          "text": "Hablo con una máquina?"
+        },
+        {
+          "text": "Hablo con una persona?"
+        },
+        {
+          "text": "Me confirmas si hablo con un agente virtual o con un agente real?"
+        },
+        {
+          "text": "Podría hablar con un agente virtual?"
+        },
+        {
+          "text": "PPuedes decirme, si eres vivo o virtual?"
+        },
+        {
+          "text": "Preferiría hablar con un agente virutal."
+        },
+        {
+          "text": "Quiero saber si eres real o no"
+        },
+        {
+          "text": "Tu eres un agente virtual o real?"
+        }
+      ],
+      "description": "Preguntar si habla con un humano o un bot."
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "Cuál es tu chiste favorito?"
+        },
+        {
+          "text": "Cuéntame un chiste."
+        },
+        {
+          "text": "Dime algo divertido."
+        },
+        {
+          "text": "Dime otro chiste!"
+        },
+        {
+          "text": "Dime un chiste."
+        },
+        {
+          "text": "Dime un chiste sarcástico."
+        },
+        {
+          "text": "Divierteme!"
+        },
+        {
+          "text": "Estoy aburrido."
+        },
+        {
+          "text": "Me aburro."
+        },
+        {
+          "text": "Me gustan los chistes, cuéntame uno."
+        },
+        {
+          "text": "Me gustaría que me diviertas."
+        },
+        {
+          "text": "Puedes entretenerme?"
+        },
+        {
+          "text": "Puedo jugar juegos aquí?"
+        },
+        {
+          "text": "Qué sueles hacer para divertirte?"
+        },
+        {
+          "text": "Quiero reírme un poco, cuéntame algo divertido."
+        },
+        {
+          "text": "Sabes contar chistes?"
+        },
+        {
+          "text": "Sorpréndeme con algo chistoso."
+        },
+        {
+          "text": "Te gusta hacer chistes?"
+        },
+        {
+          "text": "Te gustan los chistes?"
+        },
+        {
+          "text": "Te ha pasado algo chistoso hoy?"
+        }
+      ],
+      "description": "Solicito una broma"
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "Cómo te atreves a tratarme de este modo?"
+        },
+        {
+          "text": "El agente era maldispuesto."
+        },
+        {
+          "text": "El comportamiento del agente era inapropiado."
+        },
+        {
+          "text": "Eres un inútil."
+        },
+        {
+          "text": "Espero no necesitar tu ayada más."
+        },
+        {
+          "text": "Este servicio no sirve para nada."
+        },
+        {
+          "text": "Estoy muy decepcionado."
+        },
+        {
+          "text": "Increíble, mi problema sigue sin resolverse un mes."
+        },
+        {
+          "text": "La peor experiencia que he tenido en mi vida con un agente."
+        },
+        {
+          "text": "Lo que me estás diciendo es muy frustrante."
+        },
+        {
+          "text": "Me has proporcionado la información errónea."
+        },
+        {
+          "text": "No estoy de acuerdo."
+        },
+        {
+          "text": "No me has dicho la verdad."
+        },
+        {
+          "text": "No me lo creo."
+        },
+        {
+          "text": "No me trates así."
+        },
+        {
+          "text": "No puede ser!"
+        },
+        {
+          "text": "No te mereces este trabajo."
+        },
+        {
+          "text": "Nunca me has ayudado."
+        },
+        {
+          "text": "Tu comportamiento es inexcusable."
+        },
+        {
+          "text": "Voy a quejarme."
+        }
+      ],
+      "description": "Expresar comentarios desfavorables."
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "El agente era muy amable y resolvió mi problema inmediatamente."
+        },
+        {
+          "text": "El mejor soporte."
+        },
+        {
+          "text": "Eres el mejor."
+        },
+        {
+          "text": "Eres muy profesional."
+        },
+        {
+          "text": "Espero que me atiendas también la próxima vez."
+        },
+        {
+          "text": "Estoy muy contento con su servicio."
+        },
+        {
+          "text": "Es un placer trabajar contingo."
+        },
+        {
+          "text": "Excelente!"
+        },
+        {
+          "text": "Gracias."
+        },
+        {
+          "text": "Gracias por todo!"
+        },
+        {
+          "text": "Me alegraste el día."
+        },
+        {
+          "text": "Me gustaría llenar la encuesta de satisfacción."
+        },
+        {
+          "text": "Me salvaste!"
+        },
+        {
+          "text": "Muchísimas gracias por tu ayuda!"
+        },
+        {
+          "text": "Muy amable!"
+        },
+        {
+          "text": "Muy bien!"
+        },
+        {
+          "text": "Perfecto!"
+        },
+        {
+          "text": "Siempre puedo contar con su ayuda."
+        },
+        {
+          "text": "Siempre resuelves mis problemas, gracias."
+        }
+      ],
+      "description": "Expresar un sentimiento positivo o gratitud."
+    },
+    {
+      "intent": "General_Security_Assurance",
+      "examples": [
+        {
+          "text": "¿Cómo puede asegurar que nuestra conversación por chat es confidencial?"
+        },
+        {
+          "text": "¿Cómo puedo garantizar la protección de la información de los consumidores?"
+        },
+        {
+          "text": "¿Cómo reconzco si su página web es confiable?"
+        },
+        {
+          "text": "¿Cómo saber que puedo confiar en la información obtenida en esta chat sesión?"
+        },
+        {
+          "text": "Cómo sé que este chat no es una estafa?"
+        },
+        {
+          "text": "¿Dónde puedo encontrar su certificado de seguridad?"
+        },
+        {
+          "text": "Es esto un chat oficial?"
+        },
+        {
+          "text": "¿Hay alguna razón para desconfiar de este chat?"
+        },
+        {
+          "text": "Hay algunas precauciones contra los hackers?"
+        },
+        {
+          "text": "Hola El usuario desea garantías de que cualquier información que proporciona en la conversación está protegida y segura."
+        },
+        {
+          "text": "¿Mi informacion personal de pago es manejada seguramente?"
+        },
+        {
+          "text": "¿Puede confirmarme si esa red es segura?"
+        },
+        {
+          "text": "Puede demostrarme que esta conversación es segura?"
+        },
+        {
+          "text": "¿Pueden asegurarme que toda la información de mi cuenta está protegida?"
+        },
+        {
+          "text": "¿Puedo confiar en todo lo que leo en este chat?"
+        },
+        {
+          "text": "¿Puedo estar seguro que mi información de tarjeta guardada está cifrada y asegurada?"
+        },
+        {
+          "text": "¿Qué medidas de seguridad están usadas para asegurar que este chat es seguro?"
+        },
+        {
+          "text": "Qué sistemas de protección usan contra los hackers?"
+        },
+        {
+          "text": "Qué tipos de medidas se han tomado para proteger esta conversación?"
+        },
+        {
+          "text": "Quisiera asegurarme que mis detalles de tarjeta están seguros, ¿puedes hacerlo?"
+        }
+      ],
+      "description": "Expresar preocupaciones sobre la seguridad del bot."
+    },
+    {
+      "intent": "Init_Preguntas",
+      "examples": [
+        {
+          "text": "Me gustaría preguntarte algo"
+        },
+        {
+          "text": "Tengo una duda"
+        },
+        {
+          "text": "Tengo unas preguntas"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Lugares",
+      "examples": [
+        {
+          "text": "Cómo llego a clase?"
+        },
+        {
+          "text": "¿Cómo llego a la clase 6.0.E.4?"
+        },
+        {
+          "text": "Cómo llego al edificio 7?"
+        },
+        {
+          "text": "Cómo llego al polideportivo?"
+        },
+        {
+          "text": "Dónde está el edificio 2?"
+        },
+        {
+          "text": "Dónde está la cafeteria?"
+        },
+        {
+          "text": "¿Dondé está la clase 5?"
+        },
+        {
+          "text": "Dónde están los alboratorios"
+        },
+        {
+          "text": "No encuentro el edificio 1"
+        },
+        {
+          "text": "No encuentro el polideportivo"
+        },
+        {
+          "text": "No encuentro la bibliotece"
+        },
+        {
+          "text": "no encuentro la cafeteria"
+        },
+        {
+          "text": "No sé llegar al edificio 3"
+        },
+        {
+          "text": "No sé llegar al Sabatinni"
+        },
+        {
+          "text": "Quiero encontrar el aula 5"
+        },
+        {
+          "text": "Quiero llegar la aula 5.4.3"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Matrícula",
+      "examples": [
+        {
+          "text": "¿Cómo me puedo matricular en esto?"
+        },
+        {
+          "text": "¿cómo realizo la matrícula?"
+        },
+        {
+          "text": "¿Cuándo es el período de matriculación?"
+        },
+        {
+          "text": "¿Cuándo son las fechas de matriculación?"
+        },
+        {
+          "text": "No sé cómo matricularme"
+        },
+        {
+          "text": "Tengo dudas sobre la matrícula"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Telco_Activate_Device",
+      "examples": [
+        {
+          "text": "Activa el número telefónico, por favor."
+        },
+        {
+          "text": "¿Cómo puedo activar mi nuevo móvil?"
+        },
+        {
+          "text": "¿Cuánto es la tarifa de activación de una nueva tarjeta SIM?"
+        },
+        {
+          "text": "Hola, ¿puedes decirme cómo activar mi aparato?"
+        },
+        {
+          "text": "Hola, quiero activar mi tarjeta SIM y previamente, tuve muchos problemas con eso."
+        },
+        {
+          "text": "Justo compré un nuevo teléfono y necesito ayuda a activarlo y hacerlo funcionar."
+        },
+        {
+          "text": "¿Le importaría activar mi aparato?"
+        },
+        {
+          "text": "Me gustaría realizar el proceso de activación de mi teléfono"
+        },
+        {
+          "text": "Mi tarjeta SIM no funciona, ¿puedes activarla?"
+        },
+        {
+          "text": "Mi teléfono necesita activarse, ¿cómo hago eso?"
+        },
+        {
+          "text": "Necesito activar el dispositivo, pero el formulario no ha funcionado."
+        },
+        {
+          "text": "¿Puede por favor decirme cómo activar mi teléfono nuevo?"
+        },
+        {
+          "text": "¿Puedo activar mi teléfono con mi PC?"
+        },
+        {
+          "text": "¿Qué necesito para activar mi nuevo celular?"
+        },
+        {
+          "text": "Quiero activar el servicio de datos"
+        },
+        {
+          "text": "Quiero activar mi teléfono nuevo. ¿Cómo lo hago?"
+        },
+        {
+          "text": "Quiero configurar mi kit inicial de SIM"
+        },
+        {
+          "text": "Quiero registrar mi tarjeta SIM"
+        },
+        {
+          "text": "Quisiera activar mi servicio en mi aparato actual"
+        },
+        {
+          "text": "Tengo problemas activando mi aparato, ¿hay una guía disponible para guiarme paso a paso?"
+        }
+      ],
+      "description": "Activar un dispositivo"
+    },
+    {
+      "intent": "Telco_Activate_Prepaid_Plan",
+      "examples": [
+        {
+          "text": "¿Cómo activar y añadir un teléfono prepago que compré?"
+        },
+        {
+          "text": "¿Cómo puedes ayudarme a activar mi aparato prepago?"
+        },
+        {
+          "text": "¿Cómo puedo activar la nueva tarjeta SIM prepago que acabo de comprar?"
+        },
+        {
+          "text": "¿Cómo puedo activar un nuevo teléfono prepago y quitar la restricción?"
+        },
+        {
+          "text": "¿Cuánto tardará la activación de un nuevo teléfono prepago?"
+        },
+        {
+          "text": "¿Cuánto tiempo tomará para que mi teléfono prepago se active?"
+        },
+        {
+          "text": "He comprado un nuevo dispositivo prepago y me gustaría obtener ayuda para activarlo."
+        },
+        {
+          "text": "Hola. El usuario desea activar un plan de prepago."
+        },
+        {
+          "text": "Hola, recientemente compré un nuevo teléfono prepago y quiero saber cómo activarlo."
+        },
+        {
+          "text": "Necesito activar mi teléfono prepago y hacerlo funcionar"
+        },
+        {
+          "text": "¿Podría enseñarme cómo puedo activar mi nuevo aparato prepago?"
+        },
+        {
+          "text": "¿Podría mostrarme cómo activar mi teléfono prepago?"
+        },
+        {
+          "text": "¿Podríás decirme cómo activar mi aparato prepago por favor?"
+        },
+        {
+          "text": "¿Puede mostrarme las instrucciones para activar mi tarjeta SIM prepago?"
+        },
+        {
+          "text": "¿Puedes asistirme con mi activación telefónica prepaga?"
+        },
+        {
+          "text": "¿Puedo activar mi nueva SIM prepago?"
+        },
+        {
+          "text": "que debo hacer para empezar a utilizar la opcion de prepago?"
+        },
+        {
+          "text": "¿Quién puede ayudarme a activar mi teléfono celular prepago?"
+        },
+        {
+          "text": "Quiero empezar a utilizar mi tarteja SIM de prepago"
+        },
+        {
+          "text": "¿Será posible guiarme con los pasos para activar mi aparato prepago?"
+        }
+      ],
+      "description": "Activar un plan prepago."
+    },
+    {
+      "intent": "Telco_Activate_Roaming",
+      "examples": [
+        {
+          "text": "Activa itinerancia internacional."
+        },
+        {
+          "text": "Cómo activo el servicio de roaming en el extranjero?"
+        },
+        {
+          "text": "¿Cómo puedo activar itinerancia internacional?"
+        },
+        {
+          "text": "¿Cómo puedo empezar a usar mi teléfono en el extranjero?"
+        },
+        {
+          "text": "¿Cómo puedo empezar el roaming por favor?"
+        },
+        {
+          "text": "Donde puedo activar el Roaming para mi teléfono?"
+        },
+        {
+          "text": "¿Es posible activar itinerancia viajando?"
+        },
+        {
+          "text": "Estaré viajando y necesito un servicio con cobertura internacional."
+        },
+        {
+          "text": "¿Hay alguna manera de poder añadir roaming internacional?"
+        },
+        {
+          "text": "Hola, voy fuera del país, ¿puedo añadir llamadas internacionales?"
+        },
+        {
+          "text": "me puedes activar la itinerancia en mi linea?"
+        },
+        {
+          "text": "Necesito activar el roaming en EEUU. En teoría esta activado pero no funciona."
+        },
+        {
+          "text": "Necesito ayuda para activar el roaming y determinar el coste para 4 teléfonos."
+        },
+        {
+          "text": "Por favor activa itinerancia internacional en mi teléfono."
+        },
+        {
+          "text": "Por favor agrega itinerancia internacional a mi cuenta"
+        },
+        {
+          "text": "¿Puedes decirme cómo puedo añadir itinerancia a mi plan actual?"
+        },
+        {
+          "text": "Quiero activar la itinerancia."
+        },
+        {
+          "text": "Quiero conocer todo acerca del roaming internacional."
+        },
+        {
+          "text": "Voy en el extranjero con prepago, ¿qué necesito hacer?"
+        }
+      ],
+      "description": "Activar el roaming internacional."
+    },
+    {
+      "intent": "Telco_Add_Insurance",
+      "examples": [
+        {
+          "text": "Actualmente, no tengo seguro para mi teléfono. ¿Puede ayudarme a elegir un plan de seguro que satisface mis necesidadas, también que está dentro de mi presupuesto?"
+        },
+        {
+          "text": "¿Cómo funciona el seguro?"
+        },
+        {
+          "text": "¿Cómo puedo añadir una cobertura de seguro a mi cuenta?"
+        },
+        {
+          "text": "Compré un teléfono hace dos meses, ¿puedo agregarle un plan de seguro hoy?"
+        },
+        {
+          "text": "¿Cuánto costaría cada mes, para conseguir un seguro telefónico?"
+        },
+        {
+          "text": "¿Dónde puedo obtener un buen seguro para mi teléfono?"
+        },
+        {
+          "text": "Es posible activar una poliza de seguro en mi telefono?"
+        },
+        {
+          "text": "Hola, ¿este teléfono está asegurado? ¿Puedo realizar un seguro para este teléfono por mí mismo?"
+        },
+        {
+          "text": "Hola  ¿podrías ayudarme a añadir la misma poliza de seguro que tengo para toda mi familia?"
+        },
+        {
+          "text": "¿Ofreces seguros por móviles? Tengo una cuenta comercial con 10 teléfonos y quiero encontrar una buena cobertura."
+        },
+        {
+          "text": "Por favor añade un seguro a mi plan mensual"
+        },
+        {
+          "text": "¿Puedes informarme sobre un seguro adicional para mi teléfono?"
+        },
+        {
+          "text": "¿Puedo añadir un programa de seguro a mi teléfono?"
+        },
+        {
+          "text": "¿Puedo añadir un seguro a mi móvil?"
+        },
+        {
+          "text": "¿Puedo incluir un seguro en mi cuenta?"
+        },
+        {
+          "text": "¿Qué tipo de planes de protección ofrecen?"
+        },
+        {
+          "text": "Quiero saber si puedo comprar un seguro para mi teléfono"
+        },
+        {
+          "text": "Quisiera adquirir un seguro para mi teléfono. ¿Puedes ayudarme a elegir un plan de seguro que sea acorde a mis necesidades?"
+        },
+        {
+          "text": "Realmente me gustaría agregar seguro a una de mis cuentas"
+        }
+      ],
+      "description": "Agregar cobertura de seguro a una cuenta."
+    },
+    {
+      "intent": "Telco_Add_Service_Features",
+      "examples": [
+        {
+          "text": "¿Cómo añadir servicio de compartir a mi plan actual?"
+        },
+        {
+          "text": "¿Cómo enviar y recibir mensajes internacionales de texto (SMS)?"
+        },
+        {
+          "text": "¿Cómo funciona el servicio de rastreo?"
+        },
+        {
+          "text": "¿Cuánto cuesta para añadir mensajería de texto a mi plan actual?"
+        },
+        {
+          "text": "¿Está disponible la opcion de identificacion de llamadas para mi?"
+        },
+        {
+          "text": "Hola, ¿cómo habilito desvío de llamadas a mi plan?"
+        },
+        {
+          "text": "Hola, quiero añadir funciones de servicios a mi teléfono, ¿Cuál es la mejor manera de hacer eso?"
+        },
+        {
+          "text": "Me preguntaba cómo puedo agregar características a mi plan."
+        },
+        {
+          "text": "¿Puede ayudarme a añadir las conferencias telefónicas a mi plan?"
+        },
+        {
+          "text": "¿Puede informarme si el servicio de identificación de llamadas está configurado en mi teléfono?"
+        },
+        {
+          "text": "¿Puedes añadir punto de acceso y conferencias telefónicas a mi plan actual?"
+        },
+        {
+          "text": "¿Puedes explicar cómo añadir características de servicio en mi plan telefónico?"
+        },
+        {
+          "text": "¿Puedo añadir mensajería de video como una nueva función de servicio en mi teléfono?"
+        },
+        {
+          "text": "¿Puedo contratar un servicio adicional de mensajes de texto?"
+        },
+        {
+          "text": "Quiero agregar características adicionales a mi plan telefónico actual?"
+        },
+        {
+          "text": "Quiero añadir llamadas en espera a mi plan de servicio. ¿Cuánto cuesta y qué tan pronto puedes añadirlo?"
+        },
+        {
+          "text": "Quiero saber como se activa el contestador."
+        },
+        {
+          "text": "Quisiera agregar correo de voz visual a mi plan, apreciaría su ayuda en configurar esa característica."
+        },
+        {
+          "text": "Quisiera agregar llamada en espera y bloqueo de llamada y reenvío de llamada y compartir."
+        },
+        {
+          "text": "¿Tengo disponible en mi plan el buzón de voz visual?"
+        }
+      ],
+      "description": "Desactivar itinerancia internacional."
+    },
+    {
+      "intent": "Telco_Change_Price_Plan",
+      "examples": [
+        {
+          "text": "¿Cómo podemos hacer un cambio de plan tarifario en nuestros productos?"
+        },
+        {
+          "text": "¿Cómo puedo conseguir que el internet sea más rápido?"
+        },
+        {
+          "text": "¿En qué forma puedo cambiar mi plan existente por algo más barato?"
+        },
+        {
+          "text": "He usado mi teléfono cada vez menos durante el último año, así que quisiera un plan que cumpla mejor con mis necesidades"
+        },
+        {
+          "text": "Hola, necesito cambiar mi plan tarifario. ¿Puede ayudarme?"
+        },
+        {
+          "text": "Me gustaría cambiar el plan que tengo."
+        },
+        {
+          "text": "Me interesa cambiar mi plan tarifario, cualquier información está bienvenida."
+        },
+        {
+          "text": "Necesito alterar mi plan de servicio."
+        },
+        {
+          "text": "Necesito modificar mi plan de servicios."
+        },
+        {
+          "text": "No me gusta este plan. Pago demasiado por lo que recibo, ¿puedo hacer unos cambios o cambiar de plan?"
+        },
+        {
+          "text": "Por favor, ayúdame a cambiar mi plan"
+        },
+        {
+          "text": "¿Puedo cambiar mi plan tarifario para permitir las llamadas ilimitadas durante fines de semanas a otros móviles?"
+        },
+        {
+          "text": "¿Puedo hacer cualquier cosa para que mi plan cueste menos?"
+        },
+        {
+          "text": "¿Qué costaría menos, quedarme en mi plan actual o cambiarme al nuevo?"
+        },
+        {
+          "text": "Quiero cambiarme a un paquete de itinerancia ilimitada, ¿está disponible? Si lo está, ¿cuánto cuesta?"
+        },
+        {
+          "text": "Quiero cambiar mi plan a uno que ofrece llamadas ilimitadas por las tardes y fines de semanas. ¿Puedes ayudarme a cambiar eso?"
+        },
+        {
+          "text": "Quiero cambiar mi plan de telefonía fija, puede ayudarme?"
+        },
+        {
+          "text": "Quiero modificar mi plan de datos."
+        },
+        {
+          "text": "Quiero pagar menos por mi servicio de Internet"
+        },
+        {
+          "text": "Quiero tener información sobre planes, ya que quiero cambiarlo."
+        },
+        {
+          "text": "¿Tengo mensajeria de texto ilimitada?"
+        }
+      ],
+      "description": "Preguntar sobre cambiar un plan."
+    },
+    {
+      "intent": "Telco_Coverage_Area_Inquiry",
+      "examples": [
+        {
+          "text": "Buen día, ¿podría enseñarme las áreas de cobertura de la empresa telefónica?"
+        },
+        {
+          "text": "Busco informaciones detalladas sobre la red."
+        },
+        {
+          "text": "¿Cuál es la diferencia entre velocidades 3G y 4G en su área de cobertura?"
+        },
+        {
+          "text": "¿Cuándo va a mejorar la cobertura de red en mi casa?"
+        },
+        {
+          "text": "¿Dónde encontraré mejor cobertura para el teléfono móvil?"
+        },
+        {
+          "text": "¿Dónde están las zonas cerca de mí para tener buena cobertura?"
+        },
+        {
+          "text": "¿Dónde puedo obtener la mejor recepción localmente?"
+        },
+        {
+          "text": "¿Hay una manera para obtener información precisa sobre área de cobertura y calidad esperada de llamada en cada área respectivamente?"
+        },
+        {
+          "text": "He tenido problemas con la recepción en el pasado. ¿Cuál es tu área de cobertura?"
+        },
+        {
+          "text": "Hola, ¿puedes enviarme por correo electrónico un mapa que apunta las áreas de servicios telefónicos y coberturas de red facilitados por tu empresa?"
+        },
+        {
+          "text": "Me mudo de Londres pronto, ¿cuál es la calidad de la cobertura que tu empresa ofrece fuera de la ciudad?"
+        },
+        {
+          "text": "¿Podría compartir algo de información acerca de cobertura de red en esta área?"
+        },
+        {
+          "text": "¿Puede decirme cómo es la cobertura en mi área/barrio?"
+        },
+        {
+          "text": "Sólo quiero saber si mi móvil tiene una buena recepción de red por allí."
+        },
+        {
+          "text": "¿Tendré servicio durante las tormentas?"
+        },
+        {
+          "text": "¿Tengo cobertura de fibra en mi barrio local?"
+        },
+        {
+          "text": "¿Tienen algun servicio de asistencia que cubra todo el pais?"
+        },
+        {
+          "text": "¿Tiene un amplificador de señal? Esta casa tiene paredes de madera gruesas y dentro no tengo cobertura para llamadas en 4G, pero funciona bien en el exterior."
+        },
+        {
+          "text": "Viajaré y no estoy seguro de que mi empresa telefónica provee cobertura a donde viajo. ¿Podrías proveerme con información respecto a dónde estarán disponibles el servicio y la recepción?"
+        }
+      ],
+      "description": "Preguntar sobre la cobertura de red."
+    },
+    {
+      "intent": "Telco_Deactivate_Prepaid_Plan",
+      "examples": [
+        {
+          "text": "¿Cómo desactivo mi nuevo teléfono prepagado?"
+        },
+        {
+          "text": "¿Cómo desactivo un teléfono prepago nuevo y quito la restricción?"
+        },
+        {
+          "text": "¿Cómo puedes ayudarme a desactivar mi aparato prepago?"
+        },
+        {
+          "text": "¿Cómo puedo desactivar el servicio en mi teléfono prepago?"
+        },
+        {
+          "text": "Como puedo desactivar el sistema de prepago?"
+        },
+        {
+          "text": "¿Cómo puedo desactivar mi nuevo dispositivo de pago por uso?"
+        },
+        {
+          "text": "¿Cómo puedo desactivar mi servicio telefónico prepagado?"
+        },
+        {
+          "text": "¿Cómo puedo desactivar mi teléfono prepago en la tienda?"
+        },
+        {
+          "text": "¿Es posible cancelar mi línea prepago?"
+        },
+        {
+          "text": "¿Está disponible la desactivación en línea para mi teléfono prepago?"
+        },
+        {
+          "text": "Hola El usuario desea desactivar un plan de prepago"
+        },
+        {
+          "text": "Hola ¿puede asistirme con el proceso de desactivar mi aparato prepago, por favor?"
+        },
+        {
+          "text": "Necesito ayuda para desactivar el plan prepago de mi teléfono."
+        },
+        {
+          "text": "Necesito cancelar mi plan de prepago."
+        },
+        {
+          "text": "No sé cómo desactivar mi teléfono prepago, ¿puede decirme?"
+        },
+        {
+          "text": "¿Podría decirme cómo desactivar mi teléfono prepago?"
+        },
+        {
+          "text": "¿Podrías por favor decirme cómo desactivar mi teléfono prepago?"
+        },
+        {
+          "text": "¿Puede decirme cuánto tiempo se necesita normalmente para cancelar mi aparato prepago?"
+        },
+        {
+          "text": "¿Qué debo hacer para desactivar mi servicio telefónico de pago?"
+        },
+        {
+          "text": "Tengo problemas para apagar el aparato prepago. ¿Dónde están las preguntas frecuentes?"
+        }
+      ],
+      "description": "Desactivar un plan prepago."
+    },
+    {
+      "intent": "Telco_Deactivate_Roaming",
+      "examples": [
+        {
+          "text": "Ayúdame a cancelar mi itinerancia."
+        },
+        {
+          "text": "¿Cómo apagar itinerancia de datos en mi teléfono?"
+        },
+        {
+          "text": "¿Cómo deshabilitar el servicio de roaming?"
+        },
+        {
+          "text": "¿Cómo puedo apagar mi aparato cuando estoy en el extranjero?"
+        },
+        {
+          "text": "¿Cuándo me vuelvo a mi pais, como puedo desactivar el roaming?"
+        },
+        {
+          "text": "Me gustaría desactivar el roaming de mi cuenta."
+        },
+        {
+          "text": "Necesito información sobre cómo cancelar el roaming."
+        },
+        {
+          "text": "¿Podría enseñarme cómo apagar datos de itinerancias?"
+        },
+        {
+          "text": "Puede ayudarme a cancelar el servicio de roaming?"
+        },
+        {
+          "text": "¿Puede cancelar mi servicio de itinerancia?"
+        },
+        {
+          "text": "¿Puede desactivar por favor la característica de itinerancia en mi servicio?"
+        },
+        {
+          "text": "¿Puedo cancelar el roaming internacional?"
+        },
+        {
+          "text": "¿Qué puedo hacer para detener la itinerancia?"
+        },
+        {
+          "text": "¿Que tengo que hacer si quiero desactivar el roaming?"
+        },
+        {
+          "text": "¿Quiero desactivar el roaming cuando estoy fuera del país, ¿puedes ayudar?"
+        },
+        {
+          "text": "Quiero desactivar el servicio de roaming."
+        },
+        {
+          "text": "Quiero desactivar la itinerancia internacional."
+        },
+        {
+          "text": "Quiero detener el uso de datos fuera del país"
+        },
+        {
+          "text": "Quiero parar a usar teléfono en el extranjero"
+        },
+        {
+          "text": "Ya no necesito el roaming, quiero desactivarlo."
+        }
+      ],
+      "description": "Desactivar itinerancia internacional."
+    },
+    {
+      "intent": "Telco_Device_Upgrade_Eligibility",
+      "examples": [
+        {
+          "text": "¿Cuál es el tiempo en que seré elegible para una actualización telefónica?"
+        },
+        {
+          "text": "¿Cuándo podré actualizar mi cuenta para obtener un teléfono nuevo?"
+        },
+        {
+          "text": "¿Cuándo puedo obtener una actualización gratuita de aparato?"
+        },
+        {
+          "text": "¿Cuándo seré elegible para actualizar mi aparato? Mi aparato actual se está poniendo viejo."
+        },
+        {
+          "text": "¿Cuánto tiempo hasta que sea elegible para actualizar mi aparato?"
+        },
+        {
+          "text": "El usuario quiere saber si él o ella es actualmente elegible para una actualización de teléfono."
+        },
+        {
+          "text": "Estoy interesado en un nuevo teléfono, ¿sería posible ver si soy elegible para una actualización?"
+        },
+        {
+          "text": "He olvidado cuando se vence mi contrato y quiero conseguir un nuevo teléfono. ¿Puedes comprobar cuando será posible a renovar mi contrato y conseguir un nuevo teléfono?"
+        },
+        {
+          "text": "Hola, quiero hacer una actualización telefónica. ¿Esta es disponible para mí?"
+        },
+        {
+          "text": "¿Mi contrato me permite hacer una actualización ahora o debo esperar hasta que termine el contrato?"
+        },
+        {
+          "text": "Mi contrato telefónico ya está vencido ¿Puedo tener ahorra una actualización telefónica?"
+        },
+        {
+          "text": "No recuerdo cuándo me registré exactamente, pero ¿podría revisar cuándo seré elegible para actualizar mi teléfono?"
+        },
+        {
+          "text": "¿Puedes decirme si tengo derecho a actualizar mi teléfono gratis? Si no, ¿cuándo tendré derecho a hacerlo?"
+        },
+        {
+          "text": "¿Puedes por favor ver mi cuenta y decirme si soy elegible para cambiar mi teléfono por un modelo más nuevo?"
+        },
+        {
+          "text": "¿Puedo cambiar mi teléfono antes de que venza mi contrato?"
+        },
+        {
+          "text": "Quiero saber cuándo podré tener una actualización de teléfono con mi contrato."
+        },
+        {
+          "text": "Quiero un nuevo teléfono por el coste mínimo. ¿Estoy elegible por una actualización ahora? O mi cuenta no me permite una actualización. ¿Puedes comprobar mi estado de elegibilidad?"
+        },
+        {
+          "text": "Quisiera saber que móviles me podeis ofrecer para renovar el que tengo."
+        },
+        {
+          "text": "Según sus políticas, ¿cuándo tendré disponible un cambio de dispositivo?"
+        },
+        {
+          "text": "¿Será elegible mi teléfono para una actualización este año a un precio con descuento?"
+        }
+      ],
+      "description": "Preguntar sobre cuándo o cómo se puede actualizar un dispositivo."
+    },
+    {
+      "intent": "Telco_International_Rate_Plan_Inquiry",
+      "examples": [
+        {
+          "text": "¿Cómo puedo enviar mensajes internacionales de texto?"
+        },
+        {
+          "text": "¿Cuáles son las tarifas para llamadas internacionales? ¿Tienen tarifas especiales si sólo llamo a un país?"
+        },
+        {
+          "text": "cuanto cuesta llamar a otro pais de la union europea?"
+        },
+        {
+          "text": "Cuanto me cobran por una llamada internacional?"
+        },
+        {
+          "text": "¿Dónde podría encontrar información detallada acerca del plan de tarifas internacionales"
+        },
+        {
+          "text": "¿Dónde puedo consultar los detalles de mi plan internacional?"
+        },
+        {
+          "text": "Estoy interesado en saber cuál es su plan tarifario internacional"
+        },
+        {
+          "text": "¿Hay algunas limitaciones sobre los países, que puedo llamar y contactar de mi país nativo?"
+        },
+        {
+          "text": "¿Las tarifas internacionales están basadas por minuto o por una llamada individual?"
+        },
+        {
+          "text": "¿Mi servicio incluye llamadas internacionales?"
+        },
+        {
+          "text": "Necesito ayuda para saber sobre planes internacionales para mi teléfono"
+        },
+        {
+          "text": "Necesito información sobre planes de llamadas internacionales, ¿Qué sugieren?"
+        },
+        {
+          "text": "Necesito saber la tarifa internacional para mi plan actual"
+        },
+        {
+          "text": "¿Ofreces servicio internacional?"
+        },
+        {
+          "text": "¿Podría decirme cuánto costaría para llamar a Francia?"
+        },
+        {
+          "text": "¿Puede decirme cuánto cuesta para hacer llamadas internacionales?"
+        },
+        {
+          "text": "¿Puedes decirme por favor los cargos de llamadas internacionales?"
+        },
+        {
+          "text": "¿Puedo añadir un plan tarifario internacional a mi contrato?"
+        },
+        {
+          "text": "¿Puedo realizar llamadas internacionales en mi plan actual?"
+        },
+        {
+          "text": "Quiero hacer llamadas internacionales, necesito un plan para llamar a un país europeo. ¿Me puede dar las tarifas, por favor?"
+        }
+      ],
+      "description": "Preguntar sobre planes internacionales"
+    },
+    {
+      "intent": "Telco_Network_Complaints",
+      "examples": [
+        {
+          "text": "Acabo de suscribirme a una nueva red, pero mi teléfono sigue recibiendo señal débil en mi casa."
+        },
+        {
+          "text": "Actualmente, tengo problemas cuando intento a hacer una llamada. Parece que mi cuenta está desactivada. ¿Puedes comprobarlo?"
+        },
+        {
+          "text": "Cómo puedo saber si mi teléfono tiene una señal débil"
+        },
+        {
+          "text": "Estoy teniendo muchas caídas de servicio en las últimas dos horas… ¿Qué está pasando?"
+        },
+        {
+          "text": "Hay ciertas partes en mi ciudad donde no tengo recepción. ¿Puedes decirme cuál podría ser la razón?"
+        },
+        {
+          "text": "He puesto la SIM en el telefono y sigo sin conexión a la red"
+        },
+        {
+          "text": "Hola, mi señal sigue apareciendo y desapareciendo y no hay servicio."
+        },
+        {
+          "text": "Hola, mis niveles de recepción en mi teléfono están altos pero no puedo hacer ni recibir llamadas. ¿Puedes ofrecerme alguna solucion técnica para resolver este problema?"
+        },
+        {
+          "text": "Hola, ¿Puede ayudarme con mis problemas de recepción?"
+        },
+        {
+          "text": "Hola, tengo problemas con mi red, sólo dice buscando en la esquina y no puedo tener señal fuera de mi casa."
+        },
+        {
+          "text": "Mi teléfono no envía o recibe llamadas telefónicas."
+        },
+        {
+          "text": "Necesito que me solucionéis un problema de alta latencia y baja velocidad de conexión."
+        },
+        {
+          "text": "No he podido conectarme a la red. ¿Puede ayudarme?"
+        },
+        {
+          "text": "No puedo realizar ninguna llamada."
+        },
+        {
+          "text": "No puedo recibir llamadas en mi teléfono, pero si puedo llamar a cualquier persona."
+        },
+        {
+          "text": "No recibo ninguna recepción dentro de casa. ¿Hay alguna manera para arreglarlo?"
+        },
+        {
+          "text": "No soy capaz de escuchar la voz de otra persona debido a la red débil."
+        },
+        {
+          "text": "No tengo la recepción del teléfono celular en algunas áreas."
+        },
+        {
+          "text": "No tengo recepción en mi casa ¿Alguna idea de cuando será arreglado?"
+        },
+        {
+          "text": "¿Puedo presentar una reclamación de red directamente desde aquí?"
+        }
+      ],
+      "description": "Investigar sobre problemas de red."
+    },
+    {
+      "intent": "Telco_Network_Unlock",
+      "examples": [
+        {
+          "text": "¿Cómo desbloquear mi dispositivo para usarlo en otra red?"
+        },
+        {
+          "text": "¿Cómo libero un teléfono nuevo y quito la restricción?"
+        },
+        {
+          "text": "Creo que bloqueé mi teléfono y ahora necesito un código PUK."
+        },
+        {
+          "text": "¿Cuándo puedo esperar recibir ayuda para desbloquear mi teléfono?"
+        },
+        {
+          "text": "Desbloquear la SIM del teléfono."
+        },
+        {
+          "text": "Deseo liberar mi móvil pero en mi ficha de cliente no me aparece la opción para poder hacerlo."
+        },
+        {
+          "text": "¿Es posible desbloquear mi dispositivo desde la red?"
+        },
+        {
+          "text": "Hola, acabo de actualizar mi teléfono y quiero que mi hija use el viejo hasta que le toque actualizar, está en otra red y el teléfono está bloqueado, ¿puedes ayudar por favor?"
+        },
+        {
+          "text": "Intenté desbloquear a través del sistema automatizado y falló. ¿Puede alguien ayudarme a desbloquear mi teléfono?"
+        },
+        {
+          "text": "Mi número fue transferido a otro proveedor por petición mía, y ahora encuentro que no puedo obtener un código de desbloqueo para mi teléfono, el cual, de hecho, compré yo mismo."
+        },
+        {
+          "text": "Necesito desbloquear mi celular."
+        },
+        {
+          "text": "¿Podría explicarme cómo desbloquear mi teléfono?"
+        },
+        {
+          "text": "Por favor, libera mi aparato."
+        },
+        {
+          "text": "¿Por qué mi teléfono aún tiene desbloqueo pendiente?"
+        },
+        {
+          "text": "Queremos desbloquear un teléfono en Reino Unido por 6 meses."
+        },
+        {
+          "text": "Quiero desbloquear mi teléfono móvil para irme a otra compañía."
+        },
+        {
+          "text": "Quiero desbloquear mi teléfono y no sé como se hace."
+        },
+        {
+          "text": "Quiero el código de liberación de mi dispositivo móvil."
+        },
+        {
+          "text": "¿TPuedes informarme de como liberar el terminal?"
+        }
+      ],
+      "description": "Desbloquear un dispositivo de una red de servicio específica."
+    },
+    {
+      "intent": "Telco_Port_In",
+      "examples": [
+        {
+          "text": "Buen día, estoy cambiando proveedores de servicio pero quiero mantener mi número telefónico existente. ¿Es posible, por favor?"
+        },
+        {
+          "text": "¿Cómo puedo transferir un número de otro proveedor a mi nuevo servicio?"
+        },
+        {
+          "text": "esta noche se me ha realizado la portabilidad con vosotros"
+        },
+        {
+          "text": "Han rechazado la portabilidad de uno de los telefonos"
+        },
+        {
+          "text": "Hay gastos si quiero hacer la portabilidad de mi numero a otra compania?"
+        },
+        {
+          "text": "He estado usando el mismo número telefónico por muchos años y quiero quedármelo cuando cambio de mi vieja empresa a vosotros. ¿Cómo hacer para mantener ese número?"
+        },
+        {
+          "text": "Hola, he acabado de inscribirme por su cuenta y me gustaría quedarme mi número telefónico anterior de mi proveedor previo, ¿puedes decirme cómo puedo hacerlo?"
+        },
+        {
+          "text": "Hola. Quiero cambiar de proveedor de servicios, pero quiero mantener mi número telefónico actual. ¿Es posible mantener mi número telefónico, aunque cambie de operador telefónico?"
+        },
+        {
+          "text": "Me mudo a otra provincia y quiero quedarme mi actual número telefónico. ¿Permites portabilidad? No me importa si hay una tarifa involucrada."
+        },
+        {
+          "text": "¿Puedo llevar mi número telefónico conmigo si cambio a nueva empresa?"
+        },
+        {
+          "text": "¿Puedo quedarme con mi número existente si cambio a otra empresa?"
+        },
+        {
+          "text": "Qué debería hacer si quiero quedarme mi número mientras cambio proveedores de servicios?"
+        },
+        {
+          "text": "¿Qué debo hacer para conservar mi teléfono actual cuando me cambie de proveedor el próximo mes?"
+        },
+        {
+          "text": "¿Qué información necesito proporcionar al portar mi número?"
+        },
+        {
+          "text": "¿Qué proveedor de móvil permite usar el número de teléfono casero?"
+        },
+        {
+          "text": "¿Qué sucede con las llamadas mientras se está procesando el puerto de mi número?"
+        },
+        {
+          "text": "Quiero cambiar de proveedor de móvil pero quiero mantener mi número telefónico actual. Quisiera saber el procedimiento y si hay costes extra involucrados."
+        },
+        {
+          "text": "¿Se me cobra para quedarme mi propio número actual cuando cambio empresas telefónicas?"
+        },
+        {
+          "text": "¿Si cambio de proveedor, puedo quedarme con mi número actual?"
+        },
+        {
+          "text": "Tengo unas preguntas acerca de importar mi número telefónico a otra empresa"
+        }
+      ],
+      "description": "Transferir un número de teléfono de otro proveedor de servicios."
+    },
+    {
+      "intent": "Telco_Price_Plan_Inquiry",
+      "examples": [
+        {
+          "text": "¿Cómo obtengo un paquete de conexión inalámbrica?"
+        },
+        {
+          "text": "¿Cuál es el  plan de precios al que estoy suscrito?"
+        },
+        {
+          "text": "¿Cuáles son las horas gratuitas para hacer llamadas? ¿Tienen uso gratuito de datos también?"
+        },
+        {
+          "text": "¿Cuáles son los precios por los distintos planes de llamadas y datos que ofrecen?"
+        },
+        {
+          "text": "¿Cuánto estoy pagando por mes con mi plan actual?"
+        },
+        {
+          "text": "¿Es posible tener una tarifa para el movil y la línea fija?"
+        },
+        {
+          "text": "¿Estoy elegible para algunas ofertas?"
+        },
+        {
+          "text": "¿Me puede dar un resumen de los planes de precios disponibles para mí?"
+        },
+        {
+          "text": "Necesito tu ayuda para ver los planes de precios que estoy utilizando actualmente"
+        },
+        {
+          "text": "No estoy usando mi teléfono tanto en el momento, ¿hay un plan más barato en el que pueda estar?"
+        },
+        {
+          "text": "Por favor,  muéstrame los detalles del plan de precios que estoy usando actualmente."
+        },
+        {
+          "text": "¿Puede darme alguna información sobre lo que está incluido en los planes tarifarios?"
+        },
+        {
+          "text": "¿Puede mostrarme las opciones y servicios adicionales que se incluyen en la oferta?"
+        },
+        {
+          "text": "¿Puedes comprobar que nuevos planes de servicios están disponibles en mi cuenta?"
+        },
+        {
+          "text": "¿Puedo configurar mi cuenta, para limitar la cantidad de mensajes de texto que envío?"
+        },
+        {
+          "text": "¿Qué ofertas tienen disponible para llamadas, mensajes de texto e internet con mi teléfono actual?"
+        },
+        {
+          "text": "¿Qué planes puedo contratar con ustedes?"
+        },
+        {
+          "text": "Quiero saber sobre los últimos planes prepago"
+        },
+        {
+          "text": "¿Se me cobra algo por los datos adicionales?"
+        },
+        {
+          "text": "¿Tienen algunos planes tarifarios más baratos, que yo pueda aprovechar?"
+        }
+      ],
+      "description": "Preguntar sobre el plan de precios suscrito."
+    },
+    {
+      "intent": "Telco_Recharge_SIM",
+      "examples": [
+        {
+          "text": "¿Algún consejo para añadir minutos?"
+        },
+        {
+          "text": "¿Cómo realizar una recarga?"
+        },
+        {
+          "text": "¿Cuál es el proceso para agregar minutos a mi SIM?"
+        },
+        {
+          "text": "Necesito informacion sobre las recargas."
+        },
+        {
+          "text": "Por favor modifica mi crédito para tener más minutos"
+        },
+        {
+          "text": "¿Puede ayudarme a añadir minutos a mi tarjeta SIM?"
+        },
+        {
+          "text": "Puede indicarme como recargar, tengo un plan de prepago"
+        },
+        {
+          "text": "¿Puedes decirme cómo añadir minutos a mi teléfono prepago?"
+        },
+        {
+          "text": "¿Puedo agendar una recarga mensual?"
+        },
+        {
+          "text": "¿Puedo cambiar mi plan de teléfono prepago en línea?"
+        },
+        {
+          "text": "¿Puedo recargar a través del cajero automático?"
+        },
+        {
+          "text": "¿Puedo recargar mi teléfono mediante el banco online?"
+        },
+        {
+          "text": "¿Qué debería hacer para agregar minutos a mi aparato prepago?"
+        },
+        {
+          "text": "¿Qué es el procedimiento a añadir minutos a mi tarjeta SIM?"
+        },
+        {
+          "text": "¿Qué pasos debería seguir para recargar mi saldo?"
+        },
+        {
+          "text": "¿Qué proceso puedo usar para incrementar mis minutos en mi línea?"
+        },
+        {
+          "text": "Quiero agregar datos adicionales a mi cuenta prepago"
+        },
+        {
+          "text": "Quiero añadir minutos a mi tarjeta prepago."
+        },
+        {
+          "text": "Quiero aumentar el importe de dinero en mi teléfono"
+        },
+        {
+          "text": "Quisiera recargar mi servicio prepago"
+        }
+      ],
+      "description": "Agregar valor a un plan prepago o tarjeta SIM."
+    },
+    {
+      "intent": "Telco_Remove_Service_Features",
+      "examples": [
+        {
+          "text": "¿Cómo puedo quitar el servicio de compartir de mi plan?"
+        },
+        {
+          "text": "¿Dónde puedo remover la itinerancia de mi plan?"
+        },
+        {
+          "text": "He portado la línea de fijo a otro operador y quiero dar de baja el ADSL asociado."
+        },
+        {
+          "text": "Me gustaría quitar la función de llamada en espera de mi teléfono ¿Puedes quitarla para mí?"
+        },
+        {
+          "text": "No uso llamadas de larga distancia internacional y quisiera quitar esta característica de mi teléfono."
+        },
+        {
+          "text": "Preguntas acerca de eliminar funciones de servicio que está en la cuenta."
+        },
+        {
+          "text": "¿Puede cancelar mi buzón de voz?"
+        },
+        {
+          "text": "¿Puedes quitar punto de acceso y llamada en conferencia de mi plan actual?"
+        },
+        {
+          "text": "Qiero desactivar los servicios de rellamadas del contestador de todas mis líneas."
+        },
+        {
+          "text": "Quiero desactivar algunos servicios de mi plan."
+        },
+        {
+          "text": "Quiero desactivar el servicio de MMS de mi plan."
+        },
+        {
+          "text": "Quiero eliminar algunas características de mi plan."
+        },
+        {
+          "text": "Quiero eliminar las teleconferencias de mi plan, ¿cómo puedo hacerlo?"
+        },
+        {
+          "text": "Quiero eliminar varios servicios de mi plan."
+        },
+        {
+          "text": "Quiero quitar la característica de correo de voz de mi plan."
+        },
+        {
+          "text": "Quiero quitar los siguientes servicios de mi plan: Itinerancia y llamadas internacionales"
+        },
+        {
+          "text": "Quiero quitar muchas funcionalidades de mi plan. ¿Me puedes ayudar con eso?"
+        },
+        {
+          "text": "Quiero remover la mensajería de texto de mi plan, ¿es eso posible?"
+        },
+        {
+          "text": "Quiero tramitar la baja de mi línea movil."
+        },
+        {
+          "text": "Quisiera quitar mi correo de voz y reenvío de llamadas, ¿puedes hacer esto por mí?"
+        }
+      ],
+      "description": "Eliminar funciones de servicio de un plan"
+    },
+    {
+      "intent": "Telco_Return_Device",
+      "examples": [
+        {
+          "text": "¿Cómo puedo devolver mi dispositivo después de 14 días?"
+        },
+        {
+          "text": "Compré mi teléfono la semana pasada y estoy pensando en devolverlo"
+        },
+        {
+          "text": "¿Cuál es el proceso para devolver productos?"
+        },
+        {
+          "text": "Cuál es la mejor manera para devolver mi aparato, debido a un problema que encontré?"
+        },
+        {
+          "text": "¿Cuál es la política de retorno de aparatos nuevos, en caso de que no me guste?"
+        },
+        {
+          "text": "¿Cuál es su política de devoluciones de un teléfono comprado en línea?"
+        },
+        {
+          "text": "¿Cuántos días tengo que devolver un teléfono defectuoso?"
+        },
+        {
+          "text": "¿Cuánto tiempo debe pasar para que ya no pueda devolver mi teléfono?"
+        },
+        {
+          "text": "Han pasado más de 14 días, ¿aún puedo devolver este dispositivo?"
+        },
+        {
+          "text": "Hay un fallo técnico con mi teléfono y quiero enviarlo de regreso. ¿Qué hago?"
+        },
+        {
+          "text": "No estoy contento con mi teléfono celular. ¿Cuál es la política de devolución para teléfonos celulares?"
+        },
+        {
+          "text": "¿Puedes darme detalles sobre sus políticas de devolución?"
+        },
+        {
+          "text": "¿Puedes decirme cómo devolver mi teléfono existente por una actualización?"
+        },
+        {
+          "text": "¿Puedo devolver algo sin un recibo?"
+        },
+        {
+          "text": "¿Puedo devolver mi aparato en la tienda o por correo?"
+        },
+        {
+          "text": "¿Puedo devolver mi dispositivo incluso si tiene dos meses de antigüedad?"
+        },
+        {
+          "text": "¿Puedo devolver mi movil antes de la fecha de caducidad?"
+        },
+        {
+          "text": "¿Puedo devolver un teléfono ligeramente dañado?"
+        },
+        {
+          "text": "Quiero devolver mi móvil, ¿puedes ayudarme?"
+        },
+        {
+          "text": "Quiero información sobre las política de devoluciones."
+        }
+      ],
+      "description": "Preguntar sobre la devolución de dispositivos no deseados."
+    },
+    {
+      "intent": "Telco_Roaming_Inquiry",
+      "examples": [
+        {
+          "text": "Cobertura en Europa."
+        },
+        {
+          "text": "¿Cuál es el proveedor de servicio con el que puedo viajar?"
+        },
+        {
+          "text": "¿Cuando recibo o realizo llamadas desde europa como se contabilizan mis minutos?"
+        },
+        {
+          "text": "¿Cuánto son las tarifas de itinerancia internacionales?"
+        },
+        {
+          "text": "¿Cuánto tengo que pagar por las llamadas entrantes si viajo al extranjero?"
+        },
+        {
+          "text": "Donde puedo conseguir información sobre el roaming?"
+        },
+        {
+          "text": "¿El servicio de itinerancia está disponible en todos los países?"
+        },
+        {
+          "text": "Estoy apunto de pasar un tiempo fuera del país, apreciaría información extensiva sobre los precios de itinerancia en varios países del mundo."
+        },
+        {
+          "text": "Estoy pensando sobre los posibles cargos itineranticos cuando uso mi aparato prepago fuera del país, ¿podría darme algunos ejemplos de cargos de itinerancia?"
+        },
+        {
+          "text": "Me voy de vacaciones, ¿qué opciones de planes tengo cuando estoy fuera del país?"
+        },
+        {
+          "text": "¿Puede decirme la tarifa actual desde Europa a Inglaterra por mi teléfono?"
+        },
+        {
+          "text": "¿Qué incluye mi tarifa de roaming?"
+        },
+        {
+          "text": "¿Qué precios tienen las tarifas en itinerancia?"
+        },
+        {
+          "text": "¿Qué proveedor ofrece la tarifa de móvil más atractiva para el roaming en el extranjero?"
+        },
+        {
+          "text": "¿Qué tipo de planes de itinerancia se ofrecen con mi proveedor de servicio? Quiero un plan económico que me permita itinerar cuando viajo."
+        },
+        {
+          "text": "Quisiera averiguar más sobre los planes tarifarios de itinerancia internacional."
+        },
+        {
+          "text": "¿Se cambiará mi teléfono automáticamente a itinerante si estoy de vacaciones?"
+        },
+        {
+          "text": "Tengo algunas preguntas relacionadas con tarifas de roaming internacional."
+        },
+        {
+          "text": "Voy a ir a Canadá por dos semanas y me gustaría usar mi teléfono allí. ¿Cuál es la manera más barata para hacerlo?"
+        }
+      ],
+      "description": "Preguntar sobre el uso de un teléfono fuera del país de origen."
+    },
+    {
+      "intent": "Telco_Swap_Device",
+      "examples": [
+        {
+          "text": "Acabo de comprar un teléfono nuevo. ¿Puedes guiarme en los pasos para cambiar mi servicio a él?"
+        },
+        {
+          "text": "¿Cómo transferir contactos de un BlackBerry a un iPhone vía bluetooth?"
+        },
+        {
+          "text": "Compré un nuevo teléfono celular, es posible usar mi anterior SIM card en este nuevo dispositivo?"
+        },
+        {
+          "text": "¿Intercambio diferido significa que lo hago en tienda después de recibir el teléfono?"
+        },
+        {
+          "text": "Necesito cambiar la sim card de mi celular."
+        },
+        {
+          "text": "Necesito cambiarme a un aparato nuevo y necesito que lo activen después de desactivar mi aparato actual"
+        },
+        {
+          "text": "Necesito información sobre intercambios. ¿Puedo aún cambiar un iPhone 6 si aún estoy por contrato?"
+        },
+        {
+          "text": "Necesito modificar la sim card de mi celular."
+        },
+        {
+          "text": "Podrias ayudarme a cambiar mi sim card de celular?"
+        },
+        {
+          "text": "¿Puedo anadir los servicoos de teléfono de mi movil viejo al nuevo?"
+        },
+        {
+          "text": "¿Puedo meter mi tarjeta SIM en otro teléfono?"
+        },
+        {
+          "text": "¿Puedo utilizar mi sim card en otro movil?"
+        },
+        {
+          "text": "¿Que accesorios vienen con mi nuevo celular?"
+        },
+        {
+          "text": "Quiero cambiar mi servicio a un aparato nuevo pero mantieniendo los datos personales. ¿Puedes decirme cómo hacerlo?"
+        },
+        {
+          "text": "Quiero solicitar un nuevo movil."
+        },
+        {
+          "text": "Quiero transferir el servicio a mi teléfono nuevo, por favor"
+        },
+        {
+          "text": "¿Si puedo intercambiar mi iPhone viejo, necesito incluir el cargador y aurículas con ello?"
+        },
+        {
+          "text": "Tengo un nuevo teléfono celular, cómo puedo transferir la información de mis contactos guardados en mi dispositivo anterior?"
+        },
+        {
+          "text": "Transfiereme el servicio de datos a mi nuevo movil."
+        }
+      ],
+      "description": "Cambiar el dispositivo"
+    },
+    {
+      "intent": "Telco_Troubleshooting",
+      "examples": [
+        {
+          "text": "Algo esta mal con mi teléfono, no funciona"
+        },
+        {
+          "text": "Creo que mi router inalámbrico tiene problemas. ¿Me puedes ayudar a determinar el error?"
+        },
+        {
+          "text": "Estoy enfrentando problemas con la conexión a wifi ¿Puede por favor ayudarme con esto?"
+        },
+        {
+          "text": "Hola, abrí una incidencia y me han mandado un email diciendo que esta resuelta y el telefono sigue sin funcionar, no coge cobertura"
+        },
+        {
+          "text": "la pantalla de mi terminal no funciona"
+        },
+        {
+          "text": "Las instrucciones del sitio web no funcionan. ¿Cómo cambio mi tono de llamada?"
+        },
+        {
+          "text": "Mi cargador está roto. ¿Puedo conseguir un repuesto?"
+        },
+        {
+          "text": "Mi conexión de WiFi se cae constantemente y me vuelve a pedir contraseña, ¿qué debería hacer para resolver este problema?"
+        },
+        {
+          "text": "Mi teléfono está perdiendo su carga rápidamente, ¿Cómo puedo arreglar esto?"
+        },
+        {
+          "text": "Mi WiFi casero está muy lento y se queda sin conexión constantemente"
+        },
+        {
+          "text": "Mi WiFi no es accesible desde toda la casa. La casa es pequeña y el rango del dispositivo debería ser suficiente."
+        },
+        {
+          "text": "Necesito algunas medidas para comprobar si este dispositivo esta dañado"
+        },
+        {
+          "text": "Necesito ayuda para reparar mi conexión de wifi."
+        },
+        {
+          "text": "¿Por qué la calidad del sonido de mis llamadas telefónicas es muy baja después de encender su servicio 3g en mi móvil?"
+        },
+        {
+          "text": "¿Por qué mi wifi siempre necesita la contraseña cuando vuelvo a entrar a mi red inalámbrica?"
+        },
+        {
+          "text": "¿Puede ayudarme? Algo parece mal con mi medidor inteligente."
+        },
+        {
+          "text": "¿Puede haber demasiados aparatos en un enrutador inalámbrico?"
+        },
+        {
+          "text": "¿Puedo conectar más de 4 dispositivos al enrutador?"
+        },
+        {
+          "text": "se me ha roto la pantalla de mi dispositivo"
+        },
+        {
+          "text": "Tengo problemas para silenciar mi teléfono, los botones de volumen no funcionan."
+        }
+      ],
+      "description": "Solicitar ayuda para un problema de dispositivo o servicio."
+    },
+    {
+      "intent": "Utilities_Construction",
+      "examples": [
+        {
+          "text": "¿Cómo enganchar una fuente de alimentación durante la reconstrucción inicial?"
+        },
+        {
+          "text": "¿Cómo mover una salida eléctrica para un refrigerador?"
+        },
+        {
+          "text": "¿Cómo puedo mantener mi servicio activo mientras mi remodelación está teniendo lugar?"
+        },
+        {
+          "text": "¿Cuáles son algunas de las mejores prácticas para seguir en una casa que esta siendo remodelada?"
+        },
+        {
+          "text": "¿Cuáles son las cosas en las que necesito pensar antes de ampliar una de las salas"
+        },
+        {
+          "text": "¿Cuáles son las reglas para la construcción y restauración de obras?"
+        },
+        {
+          "text": "¿Cuáles son los accesorios eléctricos que necesito comprar antes de poner una pared dentro de mi sala?"
+        },
+        {
+          "text": "Estoy en reconstrucción y quiero requerir ayuda con la sección de electricidad"
+        },
+        {
+          "text": "¿Hay algo que debería considerar antes de hacer una de mis habitaciones más grande?"
+        },
+        {
+          "text": "¿Hay alguna guía específica para construir una cocina modular?"
+        },
+        {
+          "text": "¿Hay alguna medida que necesito pensar sobre antes de expandir uno de los salones?"
+        },
+        {
+          "text": "¿Hay alguna necesidad de algún tipo de autorización para poder remodelar mi casa?"
+        },
+        {
+          "text": "¿Hay regulaciones de renovaciones de casas en mi ciudad?"
+        },
+        {
+          "text": "¿Hay una forma donde podamos cambiar la ubicación del enchufe del refrigerador que estoy renovando de la cocina?"
+        },
+        {
+          "text": "Necesito ayuda con el trabajo eléctrico durante mi proyecto de construcción inicial."
+        },
+        {
+          "text": "Necesito información sobre las normas de construcción locales"
+        },
+        {
+          "text": "Por favor, solicito suspender mi gas y electricidad para iniciar el proyecto de construcción."
+        },
+        {
+          "text": "¿Qué regulaciones debo seguir para construir una pared nueva?"
+        },
+        {
+          "text": "Reglas que necesito saber para evitar la multa al construir nuestra casa"
+        }
+      ],
+      "description": "Preguntar sobre el impacto que tiene un proyecto de construcción en un servicio público."
+    },
+    {
+      "intent": "Utilities_File_A_Loss_Claim",
+      "examples": [
+        {
+          "text": "Ayuda para llenar una reclamación en mi seguro del calentador a combustibles."
+        },
+        {
+          "text": "¿Cómo presentar una denuncia sobre daños de humo?"
+        },
+        {
+          "text": "¿Cómo reclamo daños en mi contador?"
+        },
+        {
+          "text": "Completar el archivo de reclamación de seguros."
+        },
+        {
+          "text": "Creo que mi refrigerador está roto después de la tormenta."
+        },
+        {
+          "text": "¿Cuál es el proceso de reclamación de seguros?"
+        },
+        {
+          "text": "¿Dónde puedo presentar una reclamación de cobertura de calentadores de combustible?"
+        },
+        {
+          "text": "En un granizo se descompusieron los paneles solares."
+        },
+        {
+          "text": "Inicia una reclamación de seguros."
+        },
+        {
+          "text": "La tormenta de granizo dañó a nuestros paneles solares. Están asegurados."
+        },
+        {
+          "text": "Mis paneles solares están dañados debido a una tormenta, pero están asegurados."
+        },
+        {
+          "text": "Mis paneles solares están rotos debido a una gran tormenta."
+        },
+        {
+          "text": "Mis paneles solares fueron dañados por una tormenta de granizo y necesito hacer una reclamación."
+        },
+        {
+          "text": "Mis paneles solares fueron destruidos debido a mal tiempo y necesito presentar una reclamación."
+        },
+        {
+          "text": "Necesito ajustar mi seguro sobre el calentador completo, ¿Dónde puedo hacer esto?"
+        },
+        {
+          "text": "Necesito reclamar el seguro de mi calentador de humo."
+        },
+        {
+          "text": "Necesito un reembolso por la falta de energía la semana pasada."
+        },
+        {
+          "text": "Queremos presentar la reclamación por el calentador de gas asegurado."
+        },
+        {
+          "text": "Tengo derecho de reclamar los daños causados por los cortes de suministro?"
+        }
+      ],
+      "description": "Presentar un reclamo por una pérdida."
+    },
+    {
+      "intent": "Utilities_Find_A_Generator",
+      "examples": [
+        {
+          "text": "¿Cómo puedo encontrar el próximo generador?"
+        },
+        {
+          "text": "¿Cómo puedo obtener una fuente alternativa de alimentación?"
+        },
+        {
+          "text": "¿Cómo puedo obtener un generador en caso de pérdida de energía?"
+        },
+        {
+          "text": "¿Dónde puedo acceder a un generador?"
+        },
+        {
+          "text": "¿Dónde puedo encontrar la fuente de alimentación de emergencia?"
+        },
+        {
+          "text": "¿En qué ubicación hay un generador disponible para mí?"
+        },
+        {
+          "text": "Fuente de energía alternativa"
+        },
+        {
+          "text": "¿Hay una central de energía ubicada en mi zona?"
+        },
+        {
+          "text": "Muéstrame el generador"
+        },
+        {
+          "text": "Necesito energía suplementaria."
+        },
+        {
+          "text": "Necesito localizar el generador más cercano"
+        },
+        {
+          "text": "Necesito una máquina que me de energía cuando la luz se vaya."
+        },
+        {
+          "text": "¿Puedes ayudarme a buscar a alguien que pueda ayudarme a obtener energía de respaldo?"
+        },
+        {
+          "text": "¿Puedes buscar proveedores en mi localidad? Necesito energía de respaldo"
+        },
+        {
+          "text": "¿Qué es mejor? Un generador en casa o uno en el jardín?"
+        },
+        {
+          "text": "Que tipo de generadores tienen?"
+        },
+        {
+          "text": "Quiero que mi generador sea reemplazado, ¿a dónde debo de ir?"
+        },
+        {
+          "text": "Requiero energía suplemental."
+        },
+        {
+          "text": "Ubicación de la fuente de energía de respaldo más cercana"
+        }
+      ],
+      "description": "Ubicar un generador."
+    },
+    {
+      "intent": "Utilities_Outage_Status",
+      "examples": [
+        {
+          "text": "¿Cuál es la estimación de tiempo en la reparación de la línea de alimentación?"
+        },
+        {
+          "text": "¿Cuándo es el momento estimado para que se restaure la energía?"
+        },
+        {
+          "text": "¿Cuándo se restaurarán los servicios eléctricos?"
+        },
+        {
+          "text": "Cuándo se resuelve el problema del corte eléctrico?"
+        },
+        {
+          "text": "¿Cuánto tiempo se llevará a arreglar la falla eléctrica?"
+        },
+        {
+          "text": "¿Cuánto tiempo se va a llevar hasta el regreso de la electricidad?"
+        },
+        {
+          "text": "Díganme si hay una interrupción eléctrica en mi área."
+        },
+        {
+          "text": "¿Dónde es el corte de electricidad en mi ubicación?"
+        },
+        {
+          "text": "¿Dónde puedo encontrar información actualizada sobre la interrupción del sistema de energia?"
+        },
+        {
+          "text": "¿Dónde puedo obtener información actualizada sobre problemas eléctricos locales?"
+        },
+        {
+          "text": "¿Hay algún problema de apagones cerca de mí?"
+        },
+        {
+          "text": "¿Hay problemas con la energía eléctrica apagada cerca de mí?"
+        },
+        {
+          "text": "¿Hay una falla eléctrica cerca de aquí?"
+        },
+        {
+          "text": "¿Hay un apagón completo en mi vecindad?"
+        },
+        {
+          "text": "¿Hay un apagón eléctrico donde vivo?"
+        },
+        {
+          "text": "Necesito saber si hay un apagón en mi dirección de trabajo."
+        },
+        {
+          "text": "¿Podría decirme cuánto tiempo tendré que esperar hasta que se activa la electricidad?"
+        },
+        {
+          "text": "Por favor, ¿podría decirme el tiempo que tomará para restaurar la energía?"
+        },
+        {
+          "text": "¿Puede reparar el error de alimentación de luz inmediatamente?"
+        },
+        {
+          "text": "¿Puedes decirme cuando el suministro de energía será restablecido?"
+        }
+      ],
+      "description": "Solicitar información actual sobre una interrupción del servicio."
+    },
+    {
+      "intent": "Utilities_Report_Outage",
+      "examples": [
+        {
+          "text": "Creo que puedo detectar una fuga de gas en mi apartamento. Necesito a alguien para que lo arregle?"
+        },
+        {
+          "text": "¿Debo llamar al departamento de bomberos por una fuga de gas?"
+        },
+        {
+          "text": "El combustible para la calefacción no funciona y se mantiene la conmutación"
+        },
+        {
+          "text": "Hay un olor de gas en mi cocina aunque la estufa no ha sido activada."
+        },
+        {
+          "text": "La corriente está completamente apagada y no enciende."
+        },
+        {
+          "text": "Me quede sin electricidad"
+        },
+        {
+          "text": "Necesitamos la reparación de la línea de alimentación en nuestra zona, manda a alguien?"
+        },
+        {
+          "text": "Necesito ayuda para una luz de carretera que no funciona."
+        },
+        {
+          "text": "Necesito ayuda. Supongo que hay gas en el apartamento. ¿Puede alguien venir a hacerse cargo?"
+        },
+        {
+          "text": "Necesito ayuda tan pronto como sea posible porque mi casa está completamente llena de gas"
+        },
+        {
+          "text": "¿Por qué a veces están prendidas las luces y a veces no?"
+        },
+        {
+          "text": "¿Por qué no funciona correctamente la energía?"
+        },
+        {
+          "text": "¿Por qué obtengo un nivel muy bajo de flujo actualmente?"
+        },
+        {
+          "text": "¿Puede ayudarme con mi detector de humo? Sigue encendiendo y apagando."
+        },
+        {
+          "text": "Puede proporcionarme alguna ayuda, hay un cable de alimentación actualmente colgando sobre el terreno."
+        },
+        {
+          "text": "¿Qué puedo hacer para informar que hay un cable de alimentación  peligroso en mi camino?"
+        },
+        {
+          "text": "¿Se nos fue la luz, es possible aumentar la producción de nuestro generador?"
+        },
+        {
+          "text": "Uno de los postes de electricidad se cayó, necesitamos alguien para solucionarlo."
+        }
+      ],
+      "description": "Informar una interrupción de un servicio de utilidad."
+    },
+    {
+      "intent": "Utilities_Report_Usage",
+      "examples": [
+        {
+          "text": "¿Cómo anoto mi uso energético ahora?"
+        },
+        {
+          "text": "¿Cómo leo el uso registrado en mi medidor?"
+        },
+        {
+          "text": "¿Cómo puedo presentar información para el uso de electricidad?"
+        },
+        {
+          "text": "Debo terminar y presentar una forma de uso del medidor eléctrico."
+        },
+        {
+          "text": "Declaro lecturas de medidor eléctrico"
+        },
+        {
+          "text": "¿De dónde puedo registrar las lecturas del medidor?"
+        },
+        {
+          "text": "¿Dónde pongo mi uso registrado?"
+        },
+        {
+          "text": "El uso de la luz en mi factura es incorrecto"
+        },
+        {
+          "text": "Necesito ayuda para tomar nota de las unidades de electricidad"
+        },
+        {
+          "text": "Puedo informar lo que dice mi medidor"
+        },
+        {
+          "text": "¿Puedo presentar mi lectura del medidor de luz del mes?"
+        },
+        {
+          "text": "Puedo reportar los valores de mi medidor para este mes"
+        },
+        {
+          "text": "¿Qué parte del medidor debería estar leyendo para revisar y registrar el uso?"
+        },
+        {
+          "text": "¿Qué tan seguido debo de anotar y decirle a mi compañía sobre el uso de  energía?"
+        },
+        {
+          "text": "Quiero informar sobre los números del medidor"
+        },
+        {
+          "text": "Quiero reportar las lecturas de mi medidor"
+        },
+        {
+          "text": "Quiero un informe de mi uso"
+        }
+      ],
+      "description": "Informar el uso registrado en un medidor."
+    },
+    {
+      "intent": "Utilities_Start_Service",
+      "examples": [
+        {
+          "text": "¿A quién necesito contactar para obtener un suministro de gas a mi ubicación?"
+        },
+        {
+          "text": "¿Cómo encender la electricidad en mi nuevo hogar?"
+        },
+        {
+          "text": "¿Cómo establecer una instalación de electricidad en mi casa?"
+        },
+        {
+          "text": "¿Cómo puedo iniciar la fuente de alimentación"
+        },
+        {
+          "text": "¿Cómo puedo iniciar mi contrato sobre suministro eléctrico?"
+        },
+        {
+          "text": "¿Cómo puedo obtener el de gas activado"
+        },
+        {
+          "text": "¿Cómo puedo obtener energía suministrada a mi casa?"
+        },
+        {
+          "text": "Cómo reactivar mi servicio de gas?"
+        },
+        {
+          "text": "¿Cómo van a conectar el suministro de electricidad?"
+        },
+        {
+          "text": "¿Cómo van a establecer un contrato de suministro eléctrico?"
+        },
+        {
+          "text": "¿Cuál es el proceso para tener energía suministrada a mi casa?"
+        },
+        {
+          "text": "Mi casa está finalmente completa. ¿Cómo puedo obtener el suministro de gas conectado?"
+        },
+        {
+          "text": "Necesito que activen la conexión de gas"
+        },
+        {
+          "text": "¿Podría activar el suministro de electricidad ahora?"
+        },
+        {
+          "text": "¿Puedes instalar el servicio eléctrico en mi casa?"
+        },
+        {
+          "text": "Qué necesito para hacer un contrato de energía eléctrica?"
+        },
+        {
+          "text": "¿Qué pasos debo seguir para obtener mi energía eléctrica activada?"
+        },
+        {
+          "text": "Quiero contratar el servicio de Energía con ustedes."
+        },
+        {
+          "text": "Quiero iniciar un suministro eléctrico cuáles son los pasos para lograrlo?"
+        },
+        {
+          "text": "Ya se hizo el trabajo en la casa. ¿Puede restaurar el servicio de gas?"
+        }
+      ],
+      "description": "Comenzar un servicio"
+    },
+    {
+      "intent": "Utilities_Stop_Service",
+      "examples": [
+        {
+          "text": "Apague el servicio."
+        },
+        {
+          "text": "Cancela servicio eléctrico mientras estoy fuera."
+        },
+        {
+          "text": "¿Cómo apagar el gas y electricidad?"
+        },
+        {
+          "text": "¿Cómo suspender mi servicio para unos pocos meses durante las vacaciones?"
+        },
+        {
+          "text": "Desactive el servicio de energía."
+        },
+        {
+          "text": "Estoy terminado su servicio con el panel solar."
+        },
+        {
+          "text": "Llevaré mi negocio en otros lugares."
+        },
+        {
+          "text": "Me gustaría cancelar el contrato para mi servicio solar."
+        },
+        {
+          "text": "Mostrar cómo terminar mi servicio con el proveedor de energía solar."
+        },
+        {
+          "text": "¿Podría desactivar mi gas y electricidad?"
+        },
+        {
+          "text": "Por favor, cancela el servicio de energía eléctrica."
+        },
+        {
+          "text": "¿Puede desconectar el servicio?"
+        },
+        {
+          "text": "¿Puedes suspender mi suministro eléctrico por un tiempo?"
+        },
+        {
+          "text": "¿Puedes suspender mi suministro eléctrico por un tiempo, por que estaré de vacaciones?"
+        },
+        {
+          "text": "Quiero finalizar el servicio."
+        },
+        {
+          "text": "Quiero rescindir el contrato de suministro de electricidad."
+        },
+        {
+          "text": "Quiero terminar mi contrato con usted para el mantenimiento de mis paneles solares."
+        },
+        {
+          "text": "Rechazo su servicio."
+        },
+        {
+          "text": "¿Se puede eliminar la electricidad?"
+        },
+        {
+          "text": "Sus servicios de energía solar ya no son necesarios."
+        }
+      ],
+      "description": "Detener un servicio"
+    },
+    {
+      "intent": "Utilities_Storm_Status",
+      "examples": [
+        {
+          "text": "¿Afectará el tornado a mi vecindario?"
+        },
+        {
+          "text": "¿Cuál es la vía proyectada del tornado?"
+        },
+        {
+          "text": "¿Cuándo se irán los efectos del huracán?"
+        },
+        {
+          "text": "¿Cuánto tiempo tomará para que las aguas bajen?"
+        },
+        {
+          "text": "Deseo información actual sobre la tormenta"
+        },
+        {
+          "text": "¿Dónde será el contacto del tornado?"
+        },
+        {
+          "text": "¿Dónde va a llegar el desastre natural?"
+        },
+        {
+          "text": "¿Duraran las tormentas actuales?"
+        },
+        {
+          "text": "¿El pronostico del mal clima probablemente nos afectará?"
+        },
+        {
+          "text": "¿El tornado va a pasar por mi area?"
+        },
+        {
+          "text": "¿Hasta cuándo durará la inundación?"
+        },
+        {
+          "text": "¿Hay alguna probabilidad de que la tormenta afecte mi ciudad?"
+        },
+        {
+          "text": "¿Hay posibles inundaciones ahí?"
+        },
+        {
+          "text": "¿La tormenta nos va a afectar a nosotros?"
+        },
+        {
+          "text": "¿Pasará el mal clima por mi zona?"
+        },
+        {
+          "text": "¿Podrás informarme si el mal clima viene para mi ubicación?"
+        },
+        {
+          "text": "¿Puede decirme el estado de la tormenta?"
+        },
+        {
+          "text": "¿Puedes decirme si la tormenta se acerca a mi área local?"
+        },
+        {
+          "text": "¿Qué espera del impacto inminente en mi área de clima"
+        },
+        {
+          "text": "¿Sabes la duración esperada de la inundación?"
+        }
+      ],
+      "description": "Solicitar la información actual de la tormenta."
+    },
+    {
+      "intent": "Utilities_View_Usage",
+      "examples": [
+        {
+          "text": "¿Cómo determinar mi consumo eléctrico?"
+        },
+        {
+          "text": "¿Cómo puedo encontrar información sobre electricidad utilizada?"
+        },
+        {
+          "text": "¿Cuál es el uso de energía promedio para una casa mi tamaño?"
+        },
+        {
+          "text": "¿Cuál es mi gasto de energía para el período de facturación anterior?"
+        },
+        {
+          "text": "¿Cuánta energía eléctrica he utilizado recientemente?"
+        },
+        {
+          "text": "¿Dónde puedo encontrar el uso de energía de cada mes?"
+        },
+        {
+          "text": "¿Dónde puedo encontrar la información relevante sobre mi consumo de energía?"
+        },
+        {
+          "text": "¿Dónde puedo obtener un gráfico que muestra mi consumo de energía?"
+        },
+        {
+          "text": "¿Dónde puedo ver mi uso de electricidad en las últimas semanas?"
+        },
+        {
+          "text": "Estoy interesado en conocer la cantidad de electricidad que he consumido recientemente."
+        },
+        {
+          "text": "¿Existe un diagrama que muestra el consumo de energía en el último mes?"
+        },
+        {
+          "text": "¿Hay una manera de comprobar el uso de energía por temporada?"
+        },
+        {
+          "text": "Me gustaría saber el nivel de energía que he estado utilizando."
+        },
+        {
+          "text": "¿Podré ver un reporte respecto a mi uso eléctrico?"
+        },
+        {
+          "text": "Podría enviarme mis estadísticas de uso de energía eléctrica?"
+        },
+        {
+          "text": "¿Puedo obtener un informe sobre cuánta energía he estado utilizando?"
+        },
+        {
+          "text": "¿Puedo recibir un informe sobre la cantidad de energía que he estado consumiendo?"
+        },
+        {
+          "text": "¿Qué debo hacer para encontrar mi consumo de energía durante los dos últimos ciclos?"
+        },
+        {
+          "text": "Quiero ver mi consumo de energía para los últimos 30 días."
+        }
+      ],
+      "description": "Solicitar detalles sobre el uso de energía."
+    }
+  ],
+  "entities": [
+    {
+      "entity": "becas",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "alumni",
+          "synonyms": [
+            "becas Soldiarias"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "grado",
+          "synonyms": [
+            "beca de grado"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "postgrado",
+          "synonyms": [
+            "beca de máster",
+            "máster"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "lugares",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "edificio1",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "edificio2",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "edificio3",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "edificio4",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "edificio5",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "edificio6",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "edificio7",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "preguntas",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "becas",
+          "synonyms": [
+            "becas"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "claves",
+          "synonyms": [
+            "contraseñas"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "lugares",
+          "synonyms": [
+            "localizaciones"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "matriculación",
+          "synonyms": [
+            "matriculación"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "otros",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "INIT",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hola.  ¿Tienes alguna pregunta para mí?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "Te puedo ayudar con:",
+            "options": [
+              {
+                "label": "Contraseñas",
+                "value": {
+                  "input": {
+                    "text": "claves"
+                  }
+                }
+              },
+              {
+                "label": "Becas",
+                "value": {
+                  "input": {
+                    "text": "becas"
+                  }
+                }
+              },
+              {
+                "label": "Matriculación",
+                "value": {
+                  "input": {
+                    "text": "matriculación"
+                  }
+                }
+              },
+              {
+                "label": "Localización de Edificios",
+                "value": {
+                  "input": {
+                    "text": "lugares"
+                  }
+                }
+              },
+              {
+                "label": "Otros",
+                "value": {
+                  "input": {
+                    "text": "otros"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bienvenido"
+    },
+    {
+      "type": "standard",
+      "title": "Error",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No le he entendido. Intente reformular la consulta."
+              },
+              {
+                "text": "¿Puede expresarse con otras palabras? No le he entendido."
+              },
+              {
+                "text": "No entendí el significado."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "En otras cosas",
+      "previous_sibling": "node_2_1605627327928",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "INIT Preguntas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Intentaré resolver tus preguntas"
+              },
+              {
+                "text": "Yo te puedo resolver las dudas que tengas"
+              },
+              {
+                "text": "Aquí para cualquier duda"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#Init_Preguntas",
+      "dialog_node": "node_10_1605623516717",
+      "previous_sibling": "node_7_1605628584189"
+    },
+    {
+      "type": "standard",
+      "title": "Dudas Claves",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Yo también he tenido algún problemilla con mis contraseñas"
+              },
+              {
+                "text": "A veces la memoria nos falla a todos"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "values": [
+              {
+                "text": "Puedes consultar tus claves en este enlace con tu DNI:"
+              },
+              {
+                "text": "https://aplicaciones.uc3m.es/clavePersonal/alumnoPrimeroLogin.do"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "¿Necesitas algo más?"
+              },
+              {
+                "text": "¿Te puedo ayudar en algo más?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Dudas_Claves || @preguntas:claves",
+      "dialog_node": "node_1_1605623930873",
+      "previous_sibling": "node_10_1605623516717"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ah! Buscas el Sabatinni"
+              },
+              {
+                "text": "En la planta superior encontrarás aulas y los despachos de las asociaciones"
+              },
+              {
+                "text": "En la planta inferior encontrarás el PIC y el Centro de Grado. También encontrarás aquí la cafetería pequeña"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "El sabatinni es fácil de reconocer debido a su forma cuadricular",
+            "source": "http://portal.uc3m.es/portal/pls/portal/docs/56411272.JPG",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_7_1605628584189",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1605627327928"
+      },
+      "conditions": "@lugares:edificio2",
+      "dialog_node": "node_1_1605629420363",
+      "previous_sibling": "node_4_1605629418120"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Buscas el Auditorio. "
+              },
+              {
+                "text": "En su interior se encuentra el Aula Magna, Aula de Artes y la cafetería principal de la universidad"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "No tiene pérdida. Digamos que es el edificio más particular de la rotonda principal",
+            "source": "https://www.noticiasparamunicipios.com/wp-content/uploads/2017/10/Legan%C3%A9s-Carlos-III.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_7_1605628584189",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1605627327928"
+      },
+      "conditions": "@lugares:edificio5",
+      "dialog_node": "node_1_1605631051205",
+      "previous_sibling": "node_7_1605630769549"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Prueba este enlace"
+              },
+              {
+                "text": "https://www.uc3m.es/postgrado/ayudas"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_8_1605625287111",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1605627327928"
+      },
+      "conditions": "@becas:postgrado",
+      "dialog_node": "node_2_1605625881412",
+      "previous_sibling": "node_6_1605625773106"
+    },
+    {
+      "type": "standard",
+      "title": "Vuelta  la pregunta",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Alguna pregunta más?"
+              },
+              {
+                "text": "¿Tienes alguna otra duda?"
+              },
+              {
+                "text": "¿Te puedo ayudar con otro tema?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1605627327928",
+      "previous_sibling": "node_8_1605625287111"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Puedo ayudarte a resolver algunas de las preguntas que vayan por esa cabecita"
+              },
+              {
+                "text": "Estoy para ayudarte a resolver cualquier problema que tengas"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1605627327928"
+      },
+      "conditions": "#General_Agent_Capabilities",
+      "dialog_node": "node_3_1605634010475",
+      "previous_sibling": "Bienvenido"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ah! Buscas el Agustín de Betancourt"
+              },
+              {
+                "text": "Aparte de Aulas, este edificio también tiene una serie de talleres y laboratorios"
+              },
+              {
+                "text": "Desde la Plaza central, mirando hacia el auditorio (edificio con techo curioso), el edificio 1 se encontraría a tu izquierda"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_7_1605628584189",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1605627327928"
+      },
+      "conditions": "@lugares:edificio1",
+      "dialog_node": "node_4_1605629418120"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ah, buscas el Polideportivo"
+              },
+              {
+                "text": "Aquí se realizan un montón de actividades variadas y posee tanto una piscina como una sauna y sala de musculación"
+              },
+              {
+                "text": "Este está un poco escondido. Para alcanzarlo deberás seguir el pasillo que hay entre el auditorio y el edificio 4 (sin meterte al praking)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_7_1605628584189",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1605627327928"
+      },
+      "conditions": "@lugares:edificio6",
+      "dialog_node": "node_4_1605631451871",
+      "previous_sibling": "node_1_1605631051205"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "En este enlace encontrarás tu respuesta"
+              },
+              {
+                "text": "https://www.uc3m.es/alumni/becas-alumni/instrucciones-solicitud"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_8_1605625287111",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1605627327928"
+      },
+      "conditions": "@becas:alumni",
+      "dialog_node": "node_6_1605625773106"
+    },
+    {
+      "type": "standard",
+      "title": "Lugares",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Todos nos hemos perdido alguna vez por el campus"
+              },
+              {
+                "text": "Es normal. A veces puede ser difícil orientarse"
+              },
+              {
+                "text": "No te preocupes. Yo te ayudo a encontrar el sitio"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "source": "https://www.uc3m.es/ss/Satellite?blobcol=urldata&blobkey=id&blobtable=MungoBlobs&blobwhere=1371547479615&ssbinary=true",
+            "response_type": "image"
+          },
+          {
+            "title": "¿Qué edificio buscas en particular?",
+            "options": [
+              {
+                "label": "Edificio 1 (Agustín de Betancourt)",
+                "value": {
+                  "input": {
+                    "text": "edificio1"
+                  }
+                }
+              },
+              {
+                "label": "Edificio 2 (Sabatinni y Rectorado)",
+                "value": {
+                  "input": {
+                    "text": "edificio2"
+                  }
+                }
+              },
+              {
+                "label": "Edificio 3 (Rey Pastor y Biblioteca)",
+                "value": {
+                  "input": {
+                    "text": "edificio3"
+                  }
+                }
+              },
+              {
+                "label": "Edificio 4 (Torres Quevedo)",
+                "value": {
+                  "input": {
+                    "text": "edificio4"
+                  }
+                }
+              },
+              {
+                "label": "Edificio 5 (Auditorio, Cafetería y Aula Magna)",
+                "value": {
+                  "input": {
+                    "text": "edificio5"
+                  }
+                }
+              },
+              {
+                "label": "Edificio 6 (Polideportivo)",
+                "value": {
+                  "input": {
+                    "text": "edificio6"
+                  }
+                }
+              },
+              {
+                "label": "Edificio 7 (Juan Bonet)",
+                "value": {
+                  "input": {
+                    "text": "edificio7"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Lugares || @preguntas:lugares",
+      "dialog_node": "node_7_1605628584189",
+      "previous_sibling": "node_3_1605634010475"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Buscas el edificio Torres de Quevedo"
+              },
+              {
+                "text": "Edificio principal para el grado de Informática con sus aulas y laboratorios"
+              },
+              {
+                "text": "Sería el edificio que seencuentra entre el auditorio y la biblioteca"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_7_1605628584189",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1605627327928"
+      },
+      "conditions": "@lugares:edificio4",
+      "dialog_node": "node_7_1605630769549",
+      "previous_sibling": "node_8_1605630445565"
+    },
+    {
+      "type": "standard",
+      "title": "Becas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Qué tipo de beca hablamos?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Alumni (Becas Solidarias)",
+                "value": {
+                  "input": {
+                    "text": "alumni"
+                  }
+                }
+              },
+              {
+                "label": "Becas Grado",
+                "value": {
+                  "input": {
+                    "text": "grado"
+                  }
+                }
+              },
+              {
+                "label": "Becas Máster",
+                "value": {
+                  "input": {
+                    "text": "postgrado"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Dudas_Becas || @preguntas:becas",
+      "dialog_node": "node_8_1605625287111",
+      "previous_sibling": "node_9_1605624774675"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Buscas la biblioteca"
+              },
+              {
+                "text": "Tiene multitud de salas de estudio y varias aulas informatizadas"
+              },
+              {
+                "text": "Si entras desde el colegio infantil la encontrarás justo enfrente."
+              },
+              {
+                "text": "SI te encuentras en la plaza principal mirando hacia el auditorio, estará a tu derecha"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Auditorio_Padre_Soler_Campus%2C_Universidad_Carlos_III.jpg/554px-Auditorio_Padre_Soler_Campus%2C_Universidad_Carlos_III.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_7_1605628584189",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1605627327928"
+      },
+      "conditions": "@lugares:edificio3",
+      "dialog_node": "node_8_1605630445565",
+      "previous_sibling": "node_1_1605629420363"
+    },
+    {
+      "type": "standard",
+      "title": "Matriculación",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para consultar sobre matrículas de  grado, sigue este enlace"
+              },
+              {
+                "text": "https://www.uc3m.es/grado/admision/solicitud/matricula"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "¿Alguna pregunta más?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Matrícula || @preguntas:matriculación",
+      "dialog_node": "node_9_1605624774675",
+      "previous_sibling": "node_1_1605623930873"
+    },
+    {
+      "type": "standard",
+      "title": "Beca de grado",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para conseguir información de las becas de grado consulta el siguiente enlace"
+              },
+              {
+                "text": "https://www.uc3m.es/estudios/ayudas-becas-para-grados"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_8_1605625287111",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1605627327928"
+      },
+      "conditions": "@becas:grado",
+      "dialog_node": "node_9_1605625890807",
+      "previous_sibling": "node_2_1605625881412"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Buscas el edificio Juan Benet"
+              },
+              {
+                "text": "Es una de las últimas incorporaciones y presentan aulas de ordenadores"
+              },
+              {
+                "text": "Para encontrarlo deberás atravesar el edificio 1 o seguir el camino a la izquierda del tren en exposición"
+              },
+              {
+                "text": "También se puede encontrar rodeando la universidad. Si has venido atravesando el puente, lo tendrás a tu derecha"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "source": "https://www.legrand.es/obrasemblematicas/obras/imagenes/edificio_juan_benet.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_7_1605628584189",
+      "conditions": "@lugares:edificio7",
+      "dialog_node": "node_9_1605631644755",
+      "previous_sibling": "node_4_1605631451871"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Querías decir:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Ninguna de las anteriores"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Querías decir:"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "RespondQuestions",
+  "language": "es",
+  "description": ""
+}
